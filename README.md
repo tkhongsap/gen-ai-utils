@@ -1,110 +1,124 @@
 
-# 🧠 Gen-AI Utils
+# 🚀 AI-Powered Code Assistant
 
-A comprehensive collection of utility scripts and helper functions designed to streamline your work with various generative AI APIs, including OpenAI, Anthropic, and others. This repository provides reusable components and examples that make it easy to integrate and manage generative AI capabilities in your projects.
+This project is an AI-powered code assistant that leverages cutting-edge natural language processing and retrieval-augmented generation (RAG) techniques. The assistant provides intelligent code assistance, document parsing, and interaction with OpenAI's powerful language models, such as GPT-4, to deliver accurate and context-aware code suggestions and analysis.
 
-## 🚀 Features
+## 📑 Table of Contents
 
-- **🛠️ Generative AI Utilities**:
-  - Unified scripts for interacting with multiple generative AI APIs, such as OpenAI and Anthropic.
-  - Includes functions for managing files, chat interactions, and vector store operations.
-  - Customizable scripts for generating responses, processing prompts, and handling API-specific tasks.
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Common Utilities](#common-utilities)
+- [FastAPI Module](#fastapi-module)
+- [LlamaParse Utilities](#llamaparse-utilities)
+- [OpenAI Utilities](#openai-utilities)
+- [Contributing](#contributing)
+- [License](#license)
 
-- **🔧 Common Utilities**:
-  - Environment management, logging, and request handling utilities that can be shared across different AI APIs.
-  - Custom CSS for enhancing the appearance of Streamlit applications, making your interfaces more user-friendly and visually appealing.
+## 🌟 Features
 
-## 📦 Installation
+- ⚡ **FastAPI Backend**: A robust and lightweight API framework that handles code-related queries and integrates easily with the AI models.
+- 📄 **LlamaParse Integration**: Advanced document parsing using LlamaParse for structured information extraction from complex documents (e.g., financial reports, PDFs).
+- 🤖 **OpenAI GPT-4 Integration**: Seamless integration with OpenAI’s GPT-4 for intelligent code generation, code analysis, and language understanding.
+- 🖥️ **Streamlit-Based User Interface**: A user-friendly web interface that allows users to interact with the AI-powered code assistant effortlessly.
+- 🛠️ **Support for Multiple Programming Languages**: Provides coding assistance across a variety of programming languages, including Python, JavaScript, Go, and more.
 
-To get started with these utilities, clone the repository and install the necessary dependencies:
+## 🛠 Installation
 
-```bash
-git clone https://github.com/yourusername/gen-ai-utils.git
-cd gen-ai-utils
-pip install -r requirements.txt
-```
+1. Clone the repository:
 
-Make sure to set up your environment variables, particularly API keys for the generative AI services you're using. You can use a `.env` file to securely manage these variables.
+   ```bash
+   git clone https://github.com/your-username/ai-code-assistant.git
+   cd ai-code-assistant
+   ```
 
-## 📁 Directory Structure
+2. Install the required dependencies for FastAPI, LlamaParse, and OpenAI integrations:
 
-The repository is organized to support multiple AI APIs, with a clear separation of utilities and examples:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-```plaintext
-gen-ai-utils/
-│
-├── app-streamlit.py                       # Example Streamlit app demonstrating usage
-├── generative_ai/
-│   ├── openai/
-│   │   ├── batch-update-vector-store-files.ipynb   # Jupyter notebook for OpenAI vector store batch updates
-│   │   ├── delete_vector_store_files.ipynb         # Jupyter notebook for OpenAI vector store file deletion
-│   │   ├── openai_assistant_response.py       # Script for generating responses using OpenAI Assistant API
-│   │   ├── openai_utils.py                    # Utility functions for interacting with OpenAI API
-│   │
-│   ├── anthropic/
-│   │   └── anthropic_utils.py                 # Placeholder for Anthropic-specific utilities
-│   │
-│   ├── gemini/                                # Placeholder for Gemini API utilities
-│   ├── llama/                                 # Placeholder for LLaMA API utilities
-│
-├── utils/
-│   ├── custom_css_main_page.py            # Custom CSS for the main page styling
-│   ├── custom_css_banner.py               # Custom CSS for the banner
-│   ├── message_utils.py                   # Utility functions for formatting and displaying messages
-│
-├── .gitignore                             # Git ignore file
-├── LICENSE                                # License for the repository
-├── README.md                              # This file
-├── requirements.txt                       # Python dependencies
-└── .env.example                           # Example environment variables file
-```
+3. Set up your environment variables:
+   Create a `.env` file in the root directory and add the following variables:
 
-## ⚙️ Usage
+   ```bash
+   OPENAI_API_KEY=your_openai_api_key
+   LLAMA_CLOUD_API_KEY=your_llama_cloud_api_key
+   ```
 
-### Generative AI Utilities
+   These keys are required for interacting with the OpenAI and LlamaParse APIs.
 
-#### 💬 Generating a Response
+## 🚀 Usage
 
-To generate a response using a generative AI API (e.g., OpenAI):
+1. **Start the FastAPI server**:
 
-```python
-from generative_ai.openai.openai_utils import generate_assistant_response
+   ```bash
+   uvicorn fastapi.main:app --reload
+   ```
 
-# Generate a response using OpenAI's Assistant API
-response = generate_assistant_response("What's the weather today?", "your_assistant_id")
-print(response)
-```
+   This will start the backend service, which handles requests and provides the AI-powered code assistant's functionality.
 
-#### 🗃️ Managing Vector Stores
+2. **Run the Streamlit application**:
 
-For managing vector stores with OpenAI:
+   ```bash
+   streamlit run common/examples/app-streamlit.py
+   ```
 
-- **Batch Update**: Use `batch-update-vector-store-files.ipynb` to update multiple files in a vector store.
-- **File Deletion**: Use `delete_vector_store_files.ipynb` to delete files from a vector store.
+   The Streamlit app provides a web-based interface where users can interact with the assistant. After launching, access the app at `http://localhost:8501`.
 
-### 🌐 Streamlit Example
+3. **Access the FastAPI docs**:
+   Visit `http://localhost:8000/docs` to explore the API endpoints and try out requests using FastAPI's built-in documentation system.
 
-Run the example Streamlit app `app-streamlit.py` to see how these utilities can be integrated into a web application:
+## 🗂️ Project Structure
 
 ```bash
-streamlit run app-streamlit.py
+GEN-AI-UTILS/
+│
+├── common/               # Utility scripts for shared functionality
+├── fastapi/              # FastAPI backend application code
+├── llama-parse/          # Scripts and notebooks for document parsing using LlamaParse
+├── openai/               # Utilities for interacting with OpenAI's GPT-4 and vector stores
+└── .gitignore            # Git ignore file for excluding files from version control
 ```
 
-The app showcases chat interactions using OpenAI's API, enhanced with custom CSS and message formatting utilities.
+### 📂 Common Utilities
 
-### 🎨 Common Utilities
+The `common` folder contains helper scripts that are used across various components of the project, such as user interface customization, messaging utilities, and OpenAI interaction.
 
-- **Custom CSS**: Use `custom_css_main_page.py` and `custom_css_banner.py` to style your Streamlit apps.
-- **Message Formatting**: Use `message_utils.py` for consistent formatting and display of chat messages.
+- **`app-streamlit.py`**: Manages the layout and interactions of the Streamlit-based web application.
+- **`custom_css_banner.py`**: Injects custom CSS to modify the web interface's banner.
+- **`custom_css_main_page.py`**: Handles CSS injection for customizing the main page of the Streamlit app.
+- **`message_utils.py`**: Helper functions for managing and formatting user-facing messages.
+- **`openai_utils.py`**: Provides utility functions for interfacing with OpenAI’s GPT-4 API.
+
+### 📂 FastAPI Module
+
+The `fastapi` folder is responsible for managing the backend API of the project, handling incoming requests, and routing them to the appropriate AI models or utilities.
+
+- **`main.py`**: Contains the FastAPI application with all the defined routes, dependencies, and request handlers.
+- **`Procfile`**: Specifies how the FastAPI application should be run in production environments (e.g., using Uvicorn).
+- **`requirements.txt`**: Lists all Python dependencies required for running the FastAPI server and other components.
+
+### 📂 LlamaParse Utilities
+
+The `llama-parse` folder holds scripts and tools for document parsing, particularly using the LlamaParse framework. It can process complex PDFs and extract structured data, such as financial statements.
+
+- **`01-advanced-RAG-with-LlamaParse.ipynb`**: A Jupyter notebook demonstrating the use of LlamaParse with a retrieval-augmented generation (RAG) model.
+- **`02-llama-parse-script-v2.py`**: A Python script for parsing documents and extracting information into markdown format.
+- **`NVIDIA-10-Q-AUG.pdf`**: Sample document used for testing LlamaParse’s parsing capabilities.
+
+### 📂 OpenAI Utilities
+
+The `openai` folder contains utilities for interacting with OpenAI’s API and managing vector stores for document retrieval tasks.
+
+- **`batch-update-vector-store-files.ipynb`**: A notebook to update vector stores in bulk for RAG or similar use cases.
+- **`openai_assistant_respose.py`**: A script for managing the interaction between OpenAI’s GPT-4 and the user interface, handling responses from the assistant.
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute to this project.
+We welcome contributions to the project! If you’d like to contribute, please fork the repository, make your changes, and submit a pull request. Be sure to follow the code style guidelines and provide adequate documentation.
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📬 Contact
-
-For any questions or suggestions, feel free to open an issue or contact the repository owner.
+This project is licensed under the MIT License. Feel free to use, modify, and distribute this project under the terms of the license.
