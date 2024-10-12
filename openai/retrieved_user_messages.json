@@ -1,0 +1,2180 @@
+[
+    {
+        "thread_id": "thread_nzN27smZi6AZ9bKhePcziMrf",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_2ezcfaWC8RYjkanf0pVQX4M4",
+                "role": "user",
+                "thread_id": "thread_nzN27smZi6AZ9bKhePcziMrf",
+                "created_at_unix": 1727338512,
+                "created_at_bangkok": "2024-09-26 15:15:12",
+                "content": "Again"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_g4LqzqoP2UNzm1HyMmrXyy4Y",
+                "role": "user",
+                "thread_id": "thread_nzN27smZi6AZ9bKhePcziMrf",
+                "created_at_unix": 1727338485,
+                "created_at_bangkok": "2024-09-26 15:14:45",
+                "content": "Give me a long history of ThaiBev. 300 words please."
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_0Sw9sDikzzRbptVrXeMlnSvo",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_QkVMI9SP3r27omrLCxarVhwP",
+                "role": "user",
+                "thread_id": "thread_0Sw9sDikzzRbptVrXeMlnSvo",
+                "created_at_unix": 1727338344,
+                "created_at_bangkok": "2024-09-26 15:12:24",
+                "content": "Okay .. how about a poem on ThsiBev sustainability"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_iLJMSAyjwEPZ6klOwkiubeyb",
+                "role": "user",
+                "thread_id": "thread_0Sw9sDikzzRbptVrXeMlnSvo",
+                "created_at_unix": 1727338311,
+                "created_at_bangkok": "2024-09-26 15:11:51",
+                "content": "Write me a poem"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_qWLj3uF7LIZBDS27cPPyEAG8",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_kYsNLaowwsIm70tKYUqkh9rs",
+                "role": "user",
+                "thread_id": "thread_qWLj3uF7LIZBDS27cPPyEAG8",
+                "created_at_unix": 1727338173,
+                "created_at_bangkok": "2024-09-26 15:09:33",
+                "content": "Hello"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_leAaFo9U8NxPoyNB1TzOVozE",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_QZ2rq9KONlXxeUNr4MymNX9U",
+                "role": "user",
+                "thread_id": "thread_leAaFo9U8NxPoyNB1TzOVozE",
+                "created_at_unix": 1727338114,
+                "created_at_bangkok": "2024-09-26 15:08:34",
+                "content": "Hello"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_qcq4B1fFlL6wrcRPUjNnLuiF",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_SyyF0dOZ9AetuABeYp7uZuk7",
+                "role": "user",
+                "thread_id": "thread_qcq4B1fFlL6wrcRPUjNnLuiF",
+                "created_at_unix": 1727337944,
+                "created_at_bangkok": "2024-09-26 15:05:44",
+                "content": "บอก history of ThsiBev หน่อย"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_Q4OXkJCWV4A6UMv4KQp5h4mq",
+                "role": "user",
+                "thread_id": "thread_qcq4B1fFlL6wrcRPUjNnLuiF",
+                "created_at_unix": 1727337918,
+                "created_at_bangkok": "2024-09-26 15:05:18",
+                "content": "Hey"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_v8I8zcdTEARzy8Rfu9RjP9F4",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_zpyWS2XGY5cJmYLq9ZlTzrxI",
+                "role": "user",
+                "thread_id": "thread_v8I8zcdTEARzy8Rfu9RjP9F4",
+                "created_at_unix": 1727337728,
+                "created_at_bangkok": "2024-09-26 15:02:08",
+                "content": "Who r u?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_FoDkKFvtsugOJfGDk6FHdTaf",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_7zKGzG3V6o6KyN4SZELYTAn5",
+                "role": "user",
+                "thread_id": "thread_FoDkKFvtsugOJfGDk6FHdTaf",
+                "created_at_unix": 1727337673,
+                "created_at_bangkok": "2024-09-26 15:01:13",
+                "content": "What do u know?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_oAyqxMvlA062R8KqK3g2kdOa",
+                "role": "user",
+                "thread_id": "thread_FoDkKFvtsugOJfGDk6FHdTaf",
+                "created_at_unix": 1727337627,
+                "created_at_bangkok": "2024-09-26 15:00:27",
+                "content": "Who are you?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_dFETpsehTYjbFvDKL6TbTB7c",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_CY2NS82HvuBdZzDSiDX7MxNk",
+                "role": "user",
+                "thread_id": "thread_dFETpsehTYjbFvDKL6TbTB7c",
+                "created_at_unix": 1727337563,
+                "created_at_bangkok": "2024-09-26 14:59:23",
+                "content": "If me a 250.words report on ThaiBev history."
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_ZPZkqnuHrqSyBMd87LgnOOTA",
+                "role": "user",
+                "thread_id": "thread_dFETpsehTYjbFvDKL6TbTB7c",
+                "created_at_unix": 1727337282,
+                "created_at_bangkok": "2024-09-26 14:54:42",
+                "content": "Hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_TDIhaNNmThf20SFyO1DXtnYH",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_7nyiZJdoWAF3NhAwpCrCWZxW",
+                "role": "user",
+                "thread_id": "thread_TDIhaNNmThf20SFyO1DXtnYH",
+                "created_at_unix": 1727337064,
+                "created_at_bangkok": "2024-09-26 14:51:04",
+                "content": "What is thaibev history?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_F0J6xMgc6K9sqEoEuyy1mxlg",
+                "role": "user",
+                "thread_id": "thread_TDIhaNNmThf20SFyO1DXtnYH",
+                "created_at_unix": 1727336997,
+                "created_at_bangkok": "2024-09-26 14:49:57",
+                "content": "Tell me what do you know"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_LAendY2Ihw2L6XJkdfxx0OH8",
+                "role": "user",
+                "thread_id": "thread_TDIhaNNmThf20SFyO1DXtnYH",
+                "created_at_unix": 1727336970,
+                "created_at_bangkok": "2024-09-26 14:49:30",
+                "content": "Hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_mF8VuN3i9rPEl0RhDZM1g6dt",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_1AHVDvo1xqHPKiSqTdlmxIxB",
+                "role": "user",
+                "thread_id": "thread_mF8VuN3i9rPEl0RhDZM1g6dt",
+                "created_at_unix": 1727335649,
+                "created_at_bangkok": "2024-09-26 14:27:29",
+                "content": "hmmm..."
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_fyeGOdD16VcALo6CqeZKSMs9",
+                "role": "user",
+                "thread_id": "thread_mF8VuN3i9rPEl0RhDZM1g6dt",
+                "created_at_unix": 1727335641,
+                "created_at_bangkok": "2024-09-26 14:27:21",
+                "content": "hey"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_uLgTahL4u9JcYD5UpkEV2WMs",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_o5PDJQysEngczXrvdVSkeh1M",
+                "role": "user",
+                "thread_id": "thread_uLgTahL4u9JcYD5UpkEV2WMs",
+                "created_at_unix": 1727335254,
+                "created_at_bangkok": "2024-09-26 14:20:54",
+                "content": "Give me a history of ThaiBev"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_YA0i0RknXMHFBh5ibSZDMRj2",
+                "role": "user",
+                "thread_id": "thread_uLgTahL4u9JcYD5UpkEV2WMs",
+                "created_at_unix": 1727334882,
+                "created_at_bangkok": "2024-09-26 14:14:42",
+                "content": "Hi"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_kFpu8IrLgY7QNKhscVgdVjWA",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_0SLWx7NfviQmaYO8X08oWASY",
+                "role": "user",
+                "thread_id": "thread_kFpu8IrLgY7QNKhscVgdVjWA",
+                "created_at_unix": 1727334789,
+                "created_at_bangkok": "2024-09-26 14:13:09",
+                "content": "What is out GHG target in 2022"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_Rl4bN6qZm0cQOyNnlqJftpn5",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_XNP6qHFEkHbfokdI2aSQMW5F",
+                "role": "user",
+                "thread_id": "thread_Rl4bN6qZm0cQOyNnlqJftpn5",
+                "created_at_unix": 1727334652,
+                "created_at_bangkok": "2024-09-26 14:10:52",
+                "content": "What is our GHG target in 2022"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_nr6fzz162ufn4O85qMNZGvH9",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_y5e0IYEhOGrWHUJYznM4P2eG",
+                "role": "user",
+                "thread_id": "thread_nr6fzz162ufn4O85qMNZGvH9",
+                "created_at_unix": 1727334077,
+                "created_at_bangkok": "2024-09-26 14:01:17",
+                "content": "เธอคือใครน่ะ จำไม่ได้ แนะนำตัวหน่อย"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_1ZVlqUN0vfcP52oq0YPRKQqS",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_oSVNtiKG6kEhTKuRAafkMvE7",
+                "role": "user",
+                "thread_id": "thread_1ZVlqUN0vfcP52oq0YPRKQqS",
+                "created_at_unix": 1727332934,
+                "created_at_bangkok": "2024-09-26 13:42:14",
+                "content": "give me a run down on ThaiBev history"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_ZigBQbm29KfMTFH11ffUmVgV",
+                "role": "user",
+                "thread_id": "thread_1ZVlqUN0vfcP52oq0YPRKQqS",
+                "created_at_unix": 1727332897,
+                "created_at_bangkok": "2024-09-26 13:41:37",
+                "content": "hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_MdfDuVstxs7hbPz2uyipebvc",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_HYl8wRjuT334mb7IShWp0WSd",
+                "role": "user",
+                "thread_id": "thread_MdfDuVstxs7hbPz2uyipebvc",
+                "created_at_unix": 1727332726,
+                "created_at_bangkok": "2024-09-26 13:38:46",
+                "content": "hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_vPYnOBdJyEqH3ULmlg6bpI5q",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_90noCAdvwSCpVx2c016oDW0W",
+                "role": "user",
+                "thread_id": "thread_vPYnOBdJyEqH3ULmlg6bpI5q",
+                "created_at_unix": 1727329692,
+                "created_at_bangkok": "2024-09-26 12:48:12",
+                "content": "hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_04Sr2KeE5M8eCWLSc33iecmu",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_rqz77fgE6YZDpE1HHXtlnBE2",
+                "role": "user",
+                "thread_id": "thread_04Sr2KeE5M8eCWLSc33iecmu",
+                "created_at_unix": 1727327485,
+                "created_at_bangkok": "2024-09-26 12:11:25",
+                "content": "What are the highlights of this event?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_H36vL2a5OP99zRE3DH7oIWlU",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_QPPUUjcdZJ1d6aEKPHYgFN9N",
+                "role": "user",
+                "thread_id": "thread_H36vL2a5OP99zRE3DH7oIWlU",
+                "created_at_unix": 1727326812,
+                "created_at_bangkok": "2024-09-26 12:00:12",
+                "content": "Hi yhere"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_xbjIlacZrz4n3GlW6Q0grKx4",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_U455bOQb70mur7rqN1FfWcKl",
+                "role": "user",
+                "thread_id": "thread_xbjIlacZrz4n3GlW6Q0grKx4",
+                "created_at_unix": 1727326789,
+                "created_at_bangkok": "2024-09-26 11:59:49",
+                "content": "how are ou?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_CDsprgZWJboss9Fb7byDFNmh",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_L8uUA6JFM5xzDK9Wg6fZj1KU",
+                "role": "user",
+                "thread_id": "thread_CDsprgZWJboss9Fb7byDFNmh",
+                "created_at_unix": 1727325903,
+                "created_at_bangkok": "2024-09-26 11:45:03",
+                "content": "ไทยเบฟมีผลิตภัณฑ์ใดบ้าง"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_rUaloiCAx2ZZhXFX6NGbWp5D",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_Q7w1pr76CwJQAGgmhbK5qlHV",
+                "role": "user",
+                "thread_id": "thread_rUaloiCAx2ZZhXFX6NGbWp5D",
+                "created_at_unix": 1727325806,
+                "created_at_bangkok": "2024-09-26 11:43:26",
+                "content": "ไทยเบฟมีการพัฒนาการศึกษาอย่างไร"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_mkmEGUgeBvy40m4ysHFW6KaE",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_B9LhZvRV8ImzGGKRFFjSIZPZ",
+                "role": "user",
+                "thread_id": "thread_mkmEGUgeBvy40m4ysHFW6KaE",
+                "created_at_unix": 1727325300,
+                "created_at_bangkok": "2024-09-26 11:35:00",
+                "content": "ขอบคุณครับ มีไรมาบอกผมบ้างอ่ะ"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_dl0nnyHeIvSeTzR3FdoIH5PJ",
+                "role": "user",
+                "thread_id": "thread_mkmEGUgeBvy40m4ysHFW6KaE",
+                "created_at_unix": 1727325272,
+                "created_at_bangkok": "2024-09-26 11:34:32",
+                "content": "เธอคือใครน่ะ"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_TtyfJGbhNElS3aTHGg2dJ4Wv",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_o3zwIHoh6cFdnM1nwJyYd5ou",
+                "role": "user",
+                "thread_id": "thread_TtyfJGbhNElS3aTHGg2dJ4Wv",
+                "created_at_unix": 1727324034,
+                "created_at_bangkok": "2024-09-26 11:13:54",
+                "content": "ไทยเบฟทำเรื่อง sustain เยอะไหม"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_1amli3ExAlmmDs1cJPdC5zfG",
+                "role": "user",
+                "thread_id": "thread_TtyfJGbhNElS3aTHGg2dJ4Wv",
+                "created_at_unix": 1727324004,
+                "created_at_bangkok": "2024-09-26 11:13:24",
+                "content": "เธอคือใครน่ะ"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_AmgBjoRz2353xTs63WzVH49g",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_5n9xDlZRgdP2zVv71Yza1Hey",
+                "role": "user",
+                "thread_id": "thread_AmgBjoRz2353xTs63WzVH49g",
+                "created_at_unix": 1727322755,
+                "created_at_bangkok": "2024-09-26 10:52:35",
+                "content": "ไทยเบฟมีเป้าหมายในการพัฒนาความยั่งยืนอย่างไร"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_QbMqmPShmMXVnKWaAR1md8w5",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_LGYFID5U2qgVoMzduWHEdbgp",
+                "role": "user",
+                "thread_id": "thread_QbMqmPShmMXVnKWaAR1md8w5",
+                "created_at_unix": 1727321672,
+                "created_at_bangkok": "2024-09-26 10:34:32",
+                "content": "ThaiBev มีการปรับตัวต่อความท้าทายด้านการเปลี่ยนแปลงสภาพภูมิอากาศอย่างไรตั้งแต่ปี 2017 - 2023"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_X5iQqMOTnoyCctXhZeFIetm8",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_Pfy5VJbUpNdXoRqlOGfA5NpW",
+                "role": "user",
+                "thread_id": "thread_X5iQqMOTnoyCctXhZeFIetm8",
+                "created_at_unix": 1727320918,
+                "created_at_bangkok": "2024-09-26 10:21:58",
+                "content": "What is our GHG target in 2022"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_MLkNlddqLYDP4dV9FWTHF0xb",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_cTSUk0Q5OxlUHCVN6XMMbJ3a",
+                "role": "user",
+                "thread_id": "thread_MLkNlddqLYDP4dV9FWTHF0xb",
+                "created_at_unix": 1727319365,
+                "created_at_bangkok": "2024-09-26 09:56:05",
+                "content": "Who are you? Tell me about your capabilities more."
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_G0BqdRYb1sQOs7YC72m6G8uB",
+                "role": "user",
+                "thread_id": "thread_MLkNlddqLYDP4dV9FWTHF0xb",
+                "created_at_unix": 1727319323,
+                "created_at_bangkok": "2024-09-26 09:55:23",
+                "content": "เธอคือใครน่ะ"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_kPeXBw5X92QCHbXyLduwbZxE",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_arIcfISbDkBNBtc5ZcIzfMkP",
+                "role": "user",
+                "thread_id": "thread_kPeXBw5X92QCHbXyLduwbZxE",
+                "created_at_unix": 1727317933,
+                "created_at_bangkok": "2024-09-26 09:32:13",
+                "content": "who are you again? Please type in Thai."
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_wEyidKjrxnz4Kk5kCddZGpze",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_pgDqpQwkYRpyHglntNFDN3KU",
+                "role": "user",
+                "thread_id": "thread_wEyidKjrxnz4Kk5kCddZGpze",
+                "created_at_unix": 1727313537,
+                "created_at_bangkok": "2024-09-26 08:18:57",
+                "content": "Hi"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_ngaZx8dlegzKugNEPFouWNqU",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_diS4QOEb9HSJy3yfsE0YQUaH",
+                "role": "user",
+                "thread_id": "thread_ngaZx8dlegzKugNEPFouWNqU",
+                "created_at_unix": 1727271287,
+                "created_at_bangkok": "2024-09-25 20:34:47",
+                "content": "Who is the CISO of ThaiBev?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_JTsFNFkmtaIdkW1smzVSTQ34",
+                "role": "user",
+                "thread_id": "thread_ngaZx8dlegzKugNEPFouWNqU",
+                "created_at_unix": 1727271237,
+                "created_at_bangkok": "2024-09-25 20:33:57",
+                "content": "ระบุชื่อได้ไหมครับ"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_DVPDgq8w5crOpc12G1f0Abnl",
+                "role": "user",
+                "thread_id": "thread_ngaZx8dlegzKugNEPFouWNqU",
+                "created_at_unix": 1727271187,
+                "created_at_bangkok": "2024-09-25 20:33:07",
+                "content": "ใครเป็น CISO ของไทยเบฟ"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_OrH9xhigGIqKRUhkJUjn0HrH",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_J3d43SeoGXe3ropU9h2x7B9t",
+                "role": "user",
+                "thread_id": "thread_OrH9xhigGIqKRUhkJUjn0HrH",
+                "created_at_unix": 1727269802,
+                "created_at_bangkok": "2024-09-25 20:10:02",
+                "content": "How about environmental target?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_CqkrNnI1C6UC4pd6g7VGVq40",
+                "role": "user",
+                "thread_id": "thread_OrH9xhigGIqKRUhkJUjn0HrH",
+                "created_at_unix": 1727269741,
+                "created_at_bangkok": "2024-09-25 20:09:01",
+                "content": "What are fundmentail target that ThaiBsv "
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_WrKjX1uVLM1KS9GcJJDdUa50",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_xOcwkkhF29Lm3nNTii1vwT1m",
+                "role": "user",
+                "thread_id": "thread_WrKjX1uVLM1KS9GcJJDdUa50",
+                "created_at_unix": 1727268210,
+                "created_at_bangkok": "2024-09-25 19:43:30",
+                "content": "What is our GHG emission target in 2022?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_cByURmr0hU3AHf653vMx7TjT",
+                "role": "user",
+                "thread_id": "thread_WrKjX1uVLM1KS9GcJJDdUa50",
+                "created_at_unix": 1727268128,
+                "created_at_bangkok": "2024-09-25 19:42:08",
+                "content": "What year was ThaiBev awarded as top of the world in sustainability development?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_IOWe2LYgm5EHbUvCTSKgPpJS",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_7Iox15O15fIEgKRIArmk6vah",
+                "role": "user",
+                "thread_id": "thread_IOWe2LYgm5EHbUvCTSKgPpJS",
+                "created_at_unix": 1727267238,
+                "created_at_bangkok": "2024-09-25 19:27:18",
+                "content": "Not sure .. what do u know?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_O02glKXSt20XAgbijbS7PPM7",
+                "role": "user",
+                "thread_id": "thread_IOWe2LYgm5EHbUvCTSKgPpJS",
+                "created_at_unix": 1727267221,
+                "created_at_bangkok": "2024-09-25 19:27:01",
+                "content": "Hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_jvE6UIkwhtsnDTAy7K6XDoUO",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_znadCeDEfpDCJHcUp2djRsuy",
+                "role": "user",
+                "thread_id": "thread_jvE6UIkwhtsnDTAy7K6XDoUO",
+                "created_at_unix": 1727262930,
+                "created_at_bangkok": "2024-09-25 18:15:30",
+                "content": "How anour .."
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_j8M2Zm8vnMAA3rnLwoPt8y9T",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_c31DlMsO3lAC2NGldOR4lztv",
+                "role": "user",
+                "thread_id": "thread_j8M2Zm8vnMAA3rnLwoPt8y9T",
+                "created_at_unix": 1727260823,
+                "created_at_bangkok": "2024-09-25 17:40:23",
+                "content": "Cool .. where can make a pledge"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_negN7wtEfK5AFT8sZXKbGM7I",
+                "role": "user",
+                "thread_id": "thread_j8M2Zm8vnMAA3rnLwoPt8y9T",
+                "created_at_unix": 1727260195,
+                "created_at_bangkok": "2024-09-25 17:29:55",
+                "content": "Can give me a quick run down?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_wNyZZPKVvcYoUsMr2P1eSqJH",
+                "role": "user",
+                "thread_id": "thread_j8M2Zm8vnMAA3rnLwoPt8y9T",
+                "created_at_unix": 1727260176,
+                "created_at_bangkok": "2024-09-25 17:29:36",
+                "content": "I have know idea about this .. "
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_r5zUCnJqAhNXJslVUhRe2t22",
+                "role": "user",
+                "thread_id": "thread_j8M2Zm8vnMAA3rnLwoPt8y9T",
+                "created_at_unix": 1727260098,
+                "created_at_bangkok": "2024-09-25 17:28:18",
+                "content": "How many language can u speak?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_2PQRl8RAj9eAOKUcaezQqPPu",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_ImmRyTRio0zq6eMs4leR7An4",
+                "role": "user",
+                "thread_id": "thread_2PQRl8RAj9eAOKUcaezQqPPu",
+                "created_at_unix": 1727259432,
+                "created_at_bangkok": "2024-09-25 17:17:12",
+                "content": "Boonrawd?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_naxXZUBxN4wjYsKKsGWpqZqw",
+                "role": "user",
+                "thread_id": "thread_2PQRl8RAj9eAOKUcaezQqPPu",
+                "created_at_unix": 1727259379,
+                "created_at_bangkok": "2024-09-25 17:16:19",
+                "content": "How is this compare to key player  in the same indusry?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_jbRsO2unrx6bjRUqNXv2B3Cw",
+                "role": "user",
+                "thread_id": "thread_2PQRl8RAj9eAOKUcaezQqPPu",
+                "created_at_unix": 1727259270,
+                "created_at_bangkok": "2024-09-25 17:14:30",
+                "content": "What is ThaiBev doing with this?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_JnRr3DbGBLCSCNrgEhtJRZWV",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_KD5N7vpcsKWdrzaBh8wlGBYt",
+                "role": "user",
+                "thread_id": "thread_JnRr3DbGBLCSCNrgEhtJRZWV",
+                "created_at_unix": 1727258664,
+                "created_at_bangkok": "2024-09-25 17:04:24",
+                "content": "Hi"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_Ze9VjNstSXKMOw86BSg0Uexb",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_szZjbV2JQv7HHL4XXSyEvgXU",
+                "role": "user",
+                "thread_id": "thread_Ze9VjNstSXKMOw86BSg0Uexb",
+                "created_at_unix": 1727257034,
+                "created_at_bangkok": "2024-09-25 16:37:14",
+                "content": "Hi, what is this sx sustainability event? how is it related to ThaiBev? tell me like I m 12 years old. "
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_Cn3RmYN1y5abE9dkjpxXCAdL",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_88qsqneclHmoF7yg2ZrYu7IZ",
+                "role": "user",
+                "thread_id": "thread_Cn3RmYN1y5abE9dkjpxXCAdL",
+                "created_at_unix": 1727256236,
+                "created_at_bangkok": "2024-09-25 16:23:56",
+                "content": "what is ThaiBev sustainability about? Explain to me like I am 12 years old. And why should I care?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_W309ahrs3F13WopAGk4VrUgW",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_4b0qyu7XnqgmvlJn0Y8r9JLF",
+                "role": "user",
+                "thread_id": "thread_W309ahrs3F13WopAGk4VrUgW",
+                "created_at_unix": 1727255165,
+                "created_at_bangkok": "2024-09-25 16:06:05",
+                "content": "ผลิตภัณฑ์ของไทยเบฟมีอะไรบ้าง"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_10saZbl5C5QpTijwH9l12LkB",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_XVCXGunkppoXeoH8mUwEHqGs",
+                "role": "user",
+                "thread_id": "thread_10saZbl5C5QpTijwH9l12LkB",
+                "created_at_unix": 1727254958,
+                "created_at_bangkok": "2024-09-25 16:02:38",
+                "content": "อยากรู้เป้าหมาย"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_7AoorfLs0a9mcnIkpkccg5iX",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_rVqyEtpwwv6ovUKlBYH4020u",
+                "role": "user",
+                "thread_id": "thread_7AoorfLs0a9mcnIkpkccg5iX",
+                "created_at_unix": 1727254800,
+                "created_at_bangkok": "2024-09-25 16:00:00",
+                "content": "อยากรู้เรื่องความยั่งยืนของไทยเบฟ"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_Ab2aTH12ouaJXVrwFryM8GWH",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_k5X5cZSvzSvOnw9mKy7RNHIk",
+                "role": "user",
+                "thread_id": "thread_Ab2aTH12ouaJXVrwFryM8GWH",
+                "created_at_unix": 1727254341,
+                "created_at_bangkok": "2024-09-25 15:52:21",
+                "content": "what are CEO key messages over the years since 2016?\n"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_2f4301RM6zNATE1a7ucijqhF",
+                "role": "user",
+                "thread_id": "thread_Ab2aTH12ouaJXVrwFryM8GWH",
+                "created_at_unix": 1727254187,
+                "created_at_bangkok": "2024-09-25 15:49:47",
+                "content": "write me a report on ThaiBev history please."
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_2V8iBjVXTQ4s8UqKhm2uzxff",
+                "role": "user",
+                "thread_id": "thread_Ab2aTH12ouaJXVrwFryM8GWH",
+                "created_at_unix": 1727254151,
+                "created_at_bangkok": "2024-09-25 15:49:11",
+                "content": "how are you?\n"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_PI76oqu4qsTMtGV0OSkqGW1e",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_6221K8wQrs3Pj0E1YtWQHCu6",
+                "role": "user",
+                "thread_id": "thread_PI76oqu4qsTMtGV0OSkqGW1e",
+                "created_at_unix": 1727253546,
+                "created_at_bangkok": "2024-09-25 15:39:06",
+                "content": "tell me about CEO message:\n\n    \"How has ThaiBev integrated sustainability into its core business strategy?\"\n    \"What challenges does ThaiBev face in achieving its ESG goals amid global uncertainties?\"\n "
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_f1kgwSrnzdNLRJJpdUAEZidF",
+                "role": "user",
+                "thread_id": "thread_PI76oqu4qsTMtGV0OSkqGW1e",
+                "created_at_unix": 1727253514,
+                "created_at_bangkok": "2024-09-25 15:38:34",
+                "content": "okay, thank you "
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_Xn2KcSmuFFEEmAqxNtq8RUH2",
+                "role": "user",
+                "thread_id": "thread_PI76oqu4qsTMtGV0OSkqGW1e",
+                "created_at_unix": 1727253354,
+                "created_at_bangkok": "2024-09-25 15:35:54",
+                "content": "specifically, I want know more about its activities after 2020."
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_8ynrv9daex7F7AcrMdzoDALh",
+                "role": "user",
+                "thread_id": "thread_PI76oqu4qsTMtGV0OSkqGW1e",
+                "created_at_unix": 1727253293,
+                "created_at_bangkok": "2024-09-25 15:34:53",
+                "content": "can you write me a report on ThaiBev 15 years history?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_WQ3PUtbv8BaXDimk2R5RM4xG",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_RqHASxR5rWsBBwdJJahMnuah",
+                "role": "user",
+                "thread_id": "thread_WQ3PUtbv8BaXDimk2R5RM4xG",
+                "created_at_unix": 1727251264,
+                "created_at_bangkok": "2024-09-25 15:01:04",
+                "content": "what is GHG?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_8eiBqMoOVlwfossunB5dFepm",
+                "role": "user",
+                "thread_id": "thread_WQ3PUtbv8BaXDimk2R5RM4xG",
+                "created_at_unix": 1727251256,
+                "created_at_bangkok": "2024-09-25 15:00:56",
+                "content": "what do you know?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_DtHjEKItsvaAUvAOvgTPz4fj",
+                "role": "user",
+                "thread_id": "thread_WQ3PUtbv8BaXDimk2R5RM4xG",
+                "created_at_unix": 1727251248,
+                "created_at_bangkok": "2024-09-25 15:00:48",
+                "content": "what are you doing?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_3R3qjrqPXZ0j3BuuTJwNTieV",
+                "role": "user",
+                "thread_id": "thread_WQ3PUtbv8BaXDimk2R5RM4xG",
+                "created_at_unix": 1727251241,
+                "created_at_bangkok": "2024-09-25 15:00:41",
+                "content": "hi here"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_baUXhAKDXV3IxZ2uZiAUZ50Q",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_qowhTowIWDlu3EyGgfjvnVfT",
+                "role": "user",
+                "thread_id": "thread_baUXhAKDXV3IxZ2uZiAUZ50Q",
+                "created_at_unix": 1727251106,
+                "created_at_bangkok": "2024-09-25 14:58:26",
+                "content": "hi ghere"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_LJI2SUnufgmTYp6hzp2IMT0r",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_3DEaYZ4C7rZ60QfXohZULQXd",
+                "role": "user",
+                "thread_id": "thread_LJI2SUnufgmTYp6hzp2IMT0r",
+                "created_at_unix": 1727250177,
+                "created_at_bangkok": "2024-09-25 14:42:57",
+                "content": "no sure . what do ou know?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_5m1RmqCKiyeNVpqcg3kF94FL",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_Z3V1MDy3MFWyGcSNhpGoR6n1",
+                "role": "user",
+                "thread_id": "thread_5m1RmqCKiyeNVpqcg3kF94FL",
+                "created_at_unix": 1727250093,
+                "created_at_bangkok": "2024-09-25 14:41:33",
+                "content": "hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_f21FLGLTfvpp4Bvc7mgyrXJt",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_X18UZloZWlaewEMemFQkhjQu",
+                "role": "user",
+                "thread_id": "thread_f21FLGLTfvpp4Bvc7mgyrXJt",
+                "created_at_unix": 1727249441,
+                "created_at_bangkok": "2024-09-25 14:30:41",
+                "content": "hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_1pdoPbxT8PKiHDmZPtW8jrdR",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_ccGwKHD65nwsuPHF6uuQxBvQ",
+                "role": "user",
+                "thread_id": "thread_1pdoPbxT8PKiHDmZPtW8jrdR",
+                "created_at_unix": 1727238943,
+                "created_at_bangkok": "2024-09-25 11:35:43",
+                "content": "บริษัทไทยเบฟมีเป้าหมายในการลดการปล่อยก๊าซเรือนกระจกอย่างไร"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_DWwU81PFyCBbmSUpVJE7DtEf",
+                "role": "user",
+                "thread_id": "thread_1pdoPbxT8PKiHDmZPtW8jrdR",
+                "created_at_unix": 1727238922,
+                "created_at_bangkok": "2024-09-25 11:35:22",
+                "content": "Hi streamlist"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_ZIcHrD6CHijXzNP5IDQn9QPD",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_cxWpvUSXXgvWPsMlteBMyEvx",
+                "role": "user",
+                "thread_id": "thread_ZIcHrD6CHijXzNP5IDQn9QPD",
+                "created_at_unix": 1727185964,
+                "created_at_bangkok": "2024-09-24 20:52:44",
+                "content": "ในช่วง 7 ปีที่ผ่านมาไทยเบฟมีการสร้างนวัตกรรมหรือเทคโนโลยีใหม่ๆเพื่อสนับสนุนเป้าหมายด้านความยั่งยืนอย่างไรบ้าง"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_9wT4EfXCVwPjhh7bXoI9rl5U",
+                "role": "user",
+                "thread_id": "thread_ZIcHrD6CHijXzNP5IDQn9QPD",
+                "created_at_unix": 1727185876,
+                "created_at_bangkok": "2024-09-24 20:51:16",
+                "content": "ไทยเบฟมีการปรับตัวต่อความท้าทาย ด้านการเปลี่ยนแปลงสภาพภูมิอากาศอย่างไรตั้งแต่ 2017-2023"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_2sNUA3L1eZcKBB19vfjSxo8J",
+                "role": "user",
+                "thread_id": "thread_ZIcHrD6CHijXzNP5IDQn9QPD",
+                "created_at_unix": 1727185828,
+                "created_at_bangkok": "2024-09-24 20:50:28",
+                "content": "แนวโน้มการมีส่วนร่วมกับชุมชนและพันธมิตรในโครงการด้านความยั่งยืนของไทยเบฟเปลี่ยนแปลงไปอย่างไรบ้าง"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_uYWWa5I3u1eksuWfMpwQM6KQ",
+                "role": "user",
+                "thread_id": "thread_ZIcHrD6CHijXzNP5IDQn9QPD",
+                "created_at_unix": 1727185787,
+                "created_at_bangkok": "2024-09-24 20:49:47",
+                "content": "สวัสดี"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_OHKIsnf2wp1JwunrQbtT7sKj",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_Qqfa5cehxMh301Y9JpdI6iA9",
+                "role": "user",
+                "thread_id": "thread_OHKIsnf2wp1JwunrQbtT7sKj",
+                "created_at_unix": 1727180165,
+                "created_at_bangkok": "2024-09-24 19:16:05",
+                "content": "Hi"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_eXfu7TpW33khw9ZPIlX4fuBX",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_WHA53s5SgdJ3QZNoNkIj6nRo",
+                "role": "user",
+                "thread_id": "thread_eXfu7TpW33khw9ZPIlX4fuBX",
+                "created_at_unix": 1727179273,
+                "created_at_bangkok": "2024-09-24 19:01:13",
+                "content": "แนวโน้มไทยเบฟกับสิ่งปวกล้อม เค้า ำไรกัน"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_f71UTWVyTpFL6iRunViSy15P",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_QlwEjRYicWKWXV6kDA6rakvd",
+                "role": "user",
+                "thread_id": "thread_f71UTWVyTpFL6iRunViSy15P",
+                "created_at_unix": 1727179000,
+                "created_at_bangkok": "2024-09-24 18:56:40",
+                "content": "Who are you "
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_ByY27IAGobU69QdhttLmuiFV",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_EtUzIZwA0dQoeopUitC9Fjiz",
+                "role": "user",
+                "thread_id": "thread_ByY27IAGobU69QdhttLmuiFV",
+                "created_at_unix": 1727177230,
+                "created_at_bangkok": "2024-09-24 18:27:10",
+                "content": "tell me something interesting."
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_HVKkpAHNzKW21ysClQrdlJMF",
+                "role": "user",
+                "thread_id": "thread_ByY27IAGobU69QdhttLmuiFV",
+                "created_at_unix": 1727177218,
+                "created_at_bangkok": "2024-09-24 18:26:58",
+                "content": "what do you know?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_XQxqTAsgsm65a84fdYa1Qct1",
+                "role": "user",
+                "thread_id": "thread_ByY27IAGobU69QdhttLmuiFV",
+                "created_at_unix": 1727177205,
+                "created_at_bangkok": "2024-09-24 18:26:45",
+                "content": "how are you?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_236pegRfigxzHZ55p0ku27FR",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_fS7keY0JeZcuw28FGHadmg8a",
+                "role": "user",
+                "thread_id": "thread_236pegRfigxzHZ55p0ku27FR",
+                "created_at_unix": 1727175118,
+                "created_at_bangkok": "2024-09-24 17:51:58",
+                "content": "okay, tell me somethign interesting. "
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_NK2yVRUXscAKomeB00isLXj4",
+                "role": "user",
+                "thread_id": "thread_236pegRfigxzHZ55p0ku27FR",
+                "created_at_unix": 1727175106,
+                "created_at_bangkok": "2024-09-24 17:51:46",
+                "content": "what do you konw?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_d4I0EtmSmZnZrgzBPsiORjsE",
+                "role": "user",
+                "thread_id": "thread_236pegRfigxzHZ55p0ku27FR",
+                "created_at_unix": 1727175099,
+                "created_at_bangkok": "2024-09-24 17:51:39",
+                "content": "hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_I825SoCs3FkSZfzG58YfvWwT",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_nJ2oaf8rnQ4qLPNovpcwDMPx",
+                "role": "user",
+                "thread_id": "thread_I825SoCs3FkSZfzG58YfvWwT",
+                "created_at_unix": 1727174917,
+                "created_at_bangkok": "2024-09-24 17:48:37",
+                "content": "hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_TdoDCXiUVHj8twl9PBEP6Zmk",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_uFL9uS5tjklFdtDjdIavYT4o",
+                "role": "user",
+                "thread_id": "thread_TdoDCXiUVHj8twl9PBEP6Zmk",
+                "created_at_unix": 1727174793,
+                "created_at_bangkok": "2024-09-24 17:46:33",
+                "content": "who are you? "
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_f6kn2EA9pDAOhbKhOAhJi7oz",
+                "role": "user",
+                "thread_id": "thread_TdoDCXiUVHj8twl9PBEP6Zmk",
+                "created_at_unix": 1727174730,
+                "created_at_bangkok": "2024-09-24 17:45:30",
+                "content": "how are you?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_B1RSEse0ZVKUwIKidSyd4WDq",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_cfuPzz8AYZt6NJssgQQtDbrN",
+                "role": "user",
+                "thread_id": "thread_B1RSEse0ZVKUwIKidSyd4WDq",
+                "created_at_unix": 1727172888,
+                "created_at_bangkok": "2024-09-24 17:14:48",
+                "content": "who are you?\n"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_8ARtoGF8Vr8u5ikw4x41PRLv",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_bxbFBmxiuE8whuCg1CI8Tp8y",
+                "role": "user",
+                "thread_id": "thread_8ARtoGF8Vr8u5ikw4x41PRLv",
+                "created_at_unix": 1726646731,
+                "created_at_bangkok": "2024-09-18 15:05:31",
+                "content": "similarly, ทยเบฟมีเป้าหมายในการลดการปล่อยก๊าซเรือนกระจกอย่างไร"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_84Yd0ONkXwWKZO0SQrduYivc",
+                "role": "user",
+                "thread_id": "thread_8ARtoGF8Vr8u5ikw4x41PRLv",
+                "created_at_unix": 1726646673,
+                "created_at_bangkok": "2024-09-18 15:04:33",
+                "content": "ไทยเบฟมีการปรับตั วต่อความท้าทาย ด้านการเปลี่ยนแปลงสภาพภูมิอากาศอย่างไรตั้งแต่ 2017-2023 >> translate please. \n"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_xK8seIc8fueseSrf3GP8cBSI",
+                "role": "user",
+                "thread_id": "thread_8ARtoGF8Vr8u5ikw4x41PRLv",
+                "created_at_unix": 1726646628,
+                "created_at_bangkok": "2024-09-18 15:03:48",
+                "content": "how abou tthis? ไทยเบฟมีการปรับตัวต่อความท้าทาย ด้านการเปลี่ยนแปลงสภาพภูมิอากาศอย่างไรตั้งแต่ 2017-2023"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_lI3M8NfisC1ITGFJhbCjDchw",
+                "role": "user",
+                "thread_id": "thread_8ARtoGF8Vr8u5ikw4x41PRLv",
+                "created_at_unix": 1726646573,
+                "created_at_bangkok": "2024-09-18 15:02:53",
+                "content": "can you translate this? แนวโน้มการมีส่วนร่วมกับชุมชน"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_IjEBVee8DAyPQeFl60akJlAk",
+                "role": "user",
+                "thread_id": "thread_8ARtoGF8Vr8u5ikw4x41PRLv",
+                "created_at_unix": 1726642679,
+                "created_at_bangkok": "2024-09-18 13:57:59",
+                "content": "แนวโน้มการมีส่วนร่วมกับชุมชนและพันธมิตรในโครงการด้านความยั่งยืนของไทยเบฟเปลี่ยนแปลงไปอย่างไรบ้าง"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_EoACsdEowsxMsW21ikigyaui",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_9Y5Ii5in0NP3WKSY1cVT6DdZ",
+                "role": "user",
+                "thread_id": "thread_EoACsdEowsxMsW21ikigyaui",
+                "created_at_unix": 1726642194,
+                "created_at_bangkok": "2024-09-18 13:49:54",
+                "content": "how about now"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_d9wM7GKnd1dDhdpaUYlK8UX7",
+                "role": "user",
+                "thread_id": "thread_EoACsdEowsxMsW21ikigyaui",
+                "created_at_unix": 1726642145,
+                "created_at_bangkok": "2024-09-18 13:49:05",
+                "content": "how are you?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_Hy3G8a1wuBrUJNtAWRvHPciy",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_ts9eqV3nuS9Ly9oRHkALZ9u5",
+                "role": "user",
+                "thread_id": "thread_Hy3G8a1wuBrUJNtAWRvHPciy",
+                "created_at_unix": 1726641994,
+                "created_at_bangkok": "2024-09-18 13:46:34",
+                "content": "Hello!"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_iQbHSaIbNZHwJmAp6NLynLfc",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_VEF1Y4wJb0ZeI44os454CjaR",
+                "role": "user",
+                "thread_id": "thread_iQbHSaIbNZHwJmAp6NLynLfc",
+                "created_at_unix": 1726641906,
+                "created_at_bangkok": "2024-09-18 13:45:06",
+                "content": "Hello!"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_ZJXV6tZ88pBCzs7NV33czFa6",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_HeoXwL8AUYjKANNNE9U6mzwa",
+                "role": "user",
+                "thread_id": "thread_ZJXV6tZ88pBCzs7NV33czFa6",
+                "created_at_unix": 1726641861,
+                "created_at_bangkok": "2024-09-18 13:44:21",
+                "content": "Hello!"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_keemNyqQDxTwOrhgK6pVAztG",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_QIy43ubiHRCuDSxmFQRjgtak",
+                "role": "user",
+                "thread_id": "thread_keemNyqQDxTwOrhgK6pVAztG",
+                "created_at_unix": 1726641732,
+                "created_at_bangkok": "2024-09-18 13:42:12",
+                "content": "Hello!"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_NKP7bvy55dnRHkQ5eSHq8MDR",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_GgbSFw039CX2EjLSHlofPHhU",
+                "role": "user",
+                "thread_id": "thread_NKP7bvy55dnRHkQ5eSHq8MDR",
+                "created_at_unix": 1726641597,
+                "created_at_bangkok": "2024-09-18 13:39:57",
+                "content": "Hello!"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_RklL6PiUUHEXzpJL6hQXX5Fj",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_nzI49nGqyoLlNnW8i4VOV0zW",
+                "role": "user",
+                "thread_id": "thread_RklL6PiUUHEXzpJL6hQXX5Fj",
+                "created_at_unix": 1726639286,
+                "created_at_bangkok": "2024-09-18 13:01:26",
+                "content": "hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_8UEE5pS57C6xNRyI02XBp1KL",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_l3G8sPp5J6EE4vbdqhz1JsR5",
+                "role": "user",
+                "thread_id": "thread_8UEE5pS57C6xNRyI02XBp1KL",
+                "created_at_unix": 1726639235,
+                "created_at_bangkok": "2024-09-18 13:00:35",
+                "content": "hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_5KXE1J8tbcFezeoDZ6LUgQ1T",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_1eTQ33VLcwayb9cdktwW5fpZ",
+                "role": "user",
+                "thread_id": "thread_5KXE1J8tbcFezeoDZ6LUgQ1T",
+                "created_at_unix": 1726638675,
+                "created_at_bangkok": "2024-09-18 12:51:15",
+                "content": "what do you know?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_lG8cAPerDPKIluvmBvUDQJmZ",
+                "role": "user",
+                "thread_id": "thread_5KXE1J8tbcFezeoDZ6LUgQ1T",
+                "created_at_unix": 1726638638,
+                "created_at_bangkok": "2024-09-18 12:50:38",
+                "content": "hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_gMSfp30WXWOvRjUrbos8wUfr",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_BoN7i903hWDsyWyXXEPuKsso",
+                "role": "user",
+                "thread_id": "thread_gMSfp30WXWOvRjUrbos8wUfr",
+                "created_at_unix": 1726638566,
+                "created_at_bangkok": "2024-09-18 12:49:26",
+                "content": "hi there"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_EQ3v3tdQQkPXLjGEbohYA5NS",
+                "role": "user",
+                "thread_id": "thread_gMSfp30WXWOvRjUrbos8wUfr",
+                "created_at_unix": 1726638538,
+                "created_at_bangkok": "2024-09-18 12:48:58",
+                "content": "& C:/Users/i1032745/AppData/Local/anaconda3/envs/env_rag/python.exe d:/github-repo-tkhongsap/sx-sustainability-show-cases/02-openai-assistant-json.py"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_wyiuPd8FZpPb7YUxY7M7SoYI",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_tn7Lg6ILfo3cnPGM8gA8YuL5",
+                "role": "user",
+                "thread_id": "thread_wyiuPd8FZpPb7YUxY7M7SoYI",
+                "created_at_unix": 1726637932,
+                "created_at_bangkok": "2024-09-18 12:38:52",
+                "content": "what else"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_jRFFGX9Wc6QtAbSZiOd4DyYx",
+                "role": "user",
+                "thread_id": "thread_wyiuPd8FZpPb7YUxY7M7SoYI",
+                "created_at_unix": 1726637918,
+                "created_at_bangkok": "2024-09-18 12:38:38",
+                "content": "what are the topics that you recommend?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_40ymNnbOLI60ZmNwWY1dyM7c",
+                "role": "user",
+                "thread_id": "thread_wyiuPd8FZpPb7YUxY7M7SoYI",
+                "created_at_unix": 1726637887,
+                "created_at_bangkok": "2024-09-18 12:38:07",
+                "content": "how are you?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_iYWNLx8RqooMnsXmTWGwEDwL",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_ODSnMg7kXZzIy7001ajb541Q",
+                "role": "user",
+                "thread_id": "thread_iYWNLx8RqooMnsXmTWGwEDwL",
+                "created_at_unix": 1726633679,
+                "created_at_bangkok": "2024-09-18 11:27:59",
+                "content": "give me somethign interseting about recyling"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_irOYi3qTKTt8QjqJwL6CBCM2",
+                "role": "user",
+                "thread_id": "thread_iYWNLx8RqooMnsXmTWGwEDwL",
+                "created_at_unix": 1726633668,
+                "created_at_bangkok": "2024-09-18 11:27:48",
+                "content": "okay,"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_HMbDfdxZJ0kgAK4s7RhGAu0F",
+                "role": "user",
+                "thread_id": "thread_iYWNLx8RqooMnsXmTWGwEDwL",
+                "created_at_unix": 1726633658,
+                "created_at_bangkok": "2024-09-18 11:27:38",
+                "content": "how"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_ILRRmjE4YTJSlqDI1OLT3aLm",
+                "role": "user",
+                "thread_id": "thread_iYWNLx8RqooMnsXmTWGwEDwL",
+                "created_at_unix": 1726633649,
+                "created_at_bangkok": "2024-09-18 11:27:29",
+                "content": "hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_zei9CjtVx3dRFBEwBzHzeoCs",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_8aFMRNO3L4iQVOB53Tr4N6mu",
+                "role": "user",
+                "thread_id": "thread_zei9CjtVx3dRFBEwBzHzeoCs",
+                "created_at_unix": 1726633548,
+                "created_at_bangkok": "2024-09-18 11:25:48",
+                "content": "hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_sXAkv0vNdR3QvlukkB1POt7c",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_Vd6ih9MTaLeXDHcG50bwoaYV",
+                "role": "user",
+                "thread_id": "thread_sXAkv0vNdR3QvlukkB1POt7c",
+                "created_at_unix": 1726633528,
+                "created_at_bangkok": "2024-09-18 11:25:28",
+                "content": "bye"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_z3032Pr3ifc3IxACLUnAG4Bz",
+                "role": "user",
+                "thread_id": "thread_sXAkv0vNdR3QvlukkB1POt7c",
+                "created_at_unix": 1726633471,
+                "created_at_bangkok": "2024-09-18 11:24:31",
+                "content": "not srue"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_IJLqKscSQqBtJHpv4XbSmasd",
+                "role": "user",
+                "thread_id": "thread_sXAkv0vNdR3QvlukkB1POt7c",
+                "created_at_unix": 1726633459,
+                "created_at_bangkok": "2024-09-18 11:24:19",
+                "content": "hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_wON23yQBuA6HIcOOm5LxtOoY",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_CVOgK6WDKAiftXRTSGmPPzyD",
+                "role": "user",
+                "thread_id": "thread_wON23yQBuA6HIcOOm5LxtOoY",
+                "created_at_unix": 1726633218,
+                "created_at_bangkok": "2024-09-18 11:20:18",
+                "content": "not sure what can you do?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_bTyjWOPiwg9N6Z0e7643p83D",
+                "role": "user",
+                "thread_id": "thread_wON23yQBuA6HIcOOm5LxtOoY",
+                "created_at_unix": 1726633200,
+                "created_at_bangkok": "2024-09-18 11:20:00",
+                "content": "hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_3QG0RdFHGmnhZsXfSD2r6GIJ",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_msvW9X0sifA60PvQqJFsH50B",
+                "role": "user",
+                "thread_id": "thread_3QG0RdFHGmnhZsXfSD2r6GIJ",
+                "created_at_unix": 1726633176,
+                "created_at_bangkok": "2024-09-18 11:19:36",
+                "content": "bye"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_el16xkfQtV2n1MyYKO2R5aOH",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_aR9D4apGzfUXvZlxNuDCG5W4",
+                "role": "user",
+                "thread_id": "thread_el16xkfQtV2n1MyYKO2R5aOH",
+                "created_at_unix": 1726633028,
+                "created_at_bangkok": "2024-09-18 11:17:08",
+                "content": "what should I learn today?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_i5ivavOdaUvndTIcKRwYJPsr",
+                "role": "user",
+                "thread_id": "thread_el16xkfQtV2n1MyYKO2R5aOH",
+                "created_at_unix": 1726632995,
+                "created_at_bangkok": "2024-09-18 11:16:35",
+                "content": "hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_15ofu1CDocHl7duus8IZGRTi",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_ag42Cje0kCALpUSRrXchyyJm",
+                "role": "user",
+                "thread_id": "thread_15ofu1CDocHl7duus8IZGRTi",
+                "created_at_unix": 1726632843,
+                "created_at_bangkok": "2024-09-18 11:14:03",
+                "content": "Water Conservation?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_0HUzQyobMMFgnWgTFJV93krS",
+                "role": "user",
+                "thread_id": "thread_15ofu1CDocHl7duus8IZGRTi",
+                "created_at_unix": 1726632823,
+                "created_at_bangkok": "2024-09-18 11:13:43",
+                "content": ", im ready to learn more now. are there anything interesting or any topics you want to suggest?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_vtYQ0MXspX8Vpjr1LRbDo9nY",
+                "role": "user",
+                "thread_id": "thread_15ofu1CDocHl7duus8IZGRTi",
+                "created_at_unix": 1726632801,
+                "created_at_bangkok": "2024-09-18 11:13:21",
+                "content": "hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_31gXZEPvD9EDd9syd72JKTw6",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_jkREv9Xr4iRVlZmXG5y6Rhai",
+                "role": "user",
+                "thread_id": "thread_31gXZEPvD9EDd9syd72JKTw6",
+                "created_at_unix": 1726632497,
+                "created_at_bangkok": "2024-09-18 11:08:17",
+                "content": "Water Usage Reduction"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_yMEDb1S0Zz7yyAPGD0Wse16Y",
+                "role": "user",
+                "thread_id": "thread_31gXZEPvD9EDd9syd72JKTw6",
+                "created_at_unix": 1726632436,
+                "created_at_bangkok": "2024-09-18 11:07:16",
+                "content": "Water Conservation please"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_sj9xZQ3FzMcJLD2F4lvIQ9aC",
+                "role": "user",
+                "thread_id": "thread_31gXZEPvD9EDd9syd72JKTw6",
+                "created_at_unix": 1726632399,
+                "created_at_bangkok": "2024-09-18 11:06:39",
+                "content": "yeah, im ready to learn more now. are there anything interesting or any topics you want to suggest?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_5pK0wBqGMQsGfEaSEqsZFWWd",
+                "role": "user",
+                "thread_id": "thread_31gXZEPvD9EDd9syd72JKTw6",
+                "created_at_unix": 1726632373,
+                "created_at_bangkok": "2024-09-18 11:06:13",
+                "content": "hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_qBcZe7sejrouZZCvNpeNDXJ7",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_HYw8fzLtNVJIExJujcx14mos",
+                "role": "user",
+                "thread_id": "thread_qBcZe7sejrouZZCvNpeNDXJ7",
+                "created_at_unix": 1726632246,
+                "created_at_bangkok": "2024-09-18 11:04:06",
+                "content": "come agan?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_uqGgPWmJBBwTNyDnySo7FeGS",
+                "role": "user",
+                "thread_id": "thread_qBcZe7sejrouZZCvNpeNDXJ7",
+                "created_at_unix": 1726631967,
+                "created_at_bangkok": "2024-09-18 10:59:27",
+                "content": "Great, what topics do you suggest we discuss today?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_hALCOwQAXgeFlsb9upW2CaqQ",
+                "role": "user",
+                "thread_id": "thread_qBcZe7sejrouZZCvNpeNDXJ7",
+                "created_at_unix": 1726631927,
+                "created_at_bangkok": "2024-09-18 10:58:47",
+                "content": "Hi there, are you ready to discuss sustainability?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_WRkQ8uPlq05B3PHPproaWezo",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_NfQ7pkKKCALmUlALPd0gKVhS",
+                "role": "user",
+                "thread_id": "thread_WRkQ8uPlq05B3PHPproaWezo",
+                "created_at_unix": 1726631522,
+                "created_at_bangkok": "2024-09-18 10:52:02",
+                "content": "should you be retrieving the latest message?????"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_LoJcVcXm7GIKg8LYfgHA9uST",
+                "role": "user",
+                "thread_id": "thread_WRkQ8uPlq05B3PHPproaWezo",
+                "created_at_unix": 1726631496,
+                "created_at_bangkok": "2024-09-18 10:51:36",
+                "content": "come one .. why you give me the same answer?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_R7kBsn8yCyZ27Lrib27bxSr9",
+                "role": "user",
+                "thread_id": "thread_WRkQ8uPlq05B3PHPproaWezo",
+                "created_at_unix": 1726631433,
+                "created_at_bangkok": "2024-09-18 10:50:33",
+                "content": "please"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_A5X1qZUlVUbNJLr4YKk7ra57",
+                "role": "user",
+                "thread_id": "thread_WRkQ8uPlq05B3PHPproaWezo",
+                "created_at_unix": 1726631423,
+                "created_at_bangkok": "2024-09-18 10:50:23",
+                "content": "again please."
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_kX8yy1k3iXfdh3RlkezJ4PgI",
+                "role": "user",
+                "thread_id": "thread_WRkQ8uPlq05B3PHPproaWezo",
+                "created_at_unix": 1726631403,
+                "created_at_bangkok": "2024-09-18 10:50:03",
+                "content": "yeah, im ready to learn more now. are there anything interesting or any topics you want to suggest?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_ja1cqPnq6Y9q0C7Cs9qpvG2I",
+                "role": "user",
+                "thread_id": "thread_WRkQ8uPlq05B3PHPproaWezo",
+                "created_at_unix": 1726631367,
+                "created_at_bangkok": "2024-09-18 10:49:27",
+                "content": "hi there, how are you?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_z0HzYXVFzeczEUhzwoOD61Yt",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_eWy590SJj71X5iDFSu09AMr7",
+                "role": "user",
+                "thread_id": "thread_z0HzYXVFzeczEUhzwoOD61Yt",
+                "created_at_unix": 1726630833,
+                "created_at_bangkok": "2024-09-18 10:40:33",
+                "content": "i am asking, but you are not responding"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_sX7OWQxvDIfZhkqJuVIZLhDe",
+                "role": "user",
+                "thread_id": "thread_z0HzYXVFzeczEUhzwoOD61Yt",
+                "created_at_unix": 1726630780,
+                "created_at_bangkok": "2024-09-18 10:39:40",
+                "content": "what are your capabiliteis?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_sRVSKYh4IOlMS53pzTMHDG2Y",
+                "role": "user",
+                "thread_id": "thread_z0HzYXVFzeczEUhzwoOD61Yt",
+                "created_at_unix": 1726630743,
+                "created_at_bangkok": "2024-09-18 10:39:03",
+                "content": "what are you capabilitites?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_YmNgUsZREbReKd39FkSFzPGi",
+                "role": "user",
+                "thread_id": "thread_z0HzYXVFzeczEUhzwoOD61Yt",
+                "created_at_unix": 1726630721,
+                "created_at_bangkok": "2024-09-18 10:38:41",
+                "content": "what?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_bvkOP1eUVwduuqFrqzwOy3BA",
+                "role": "user",
+                "thread_id": "thread_z0HzYXVFzeczEUhzwoOD61Yt",
+                "created_at_unix": 1726630705,
+                "created_at_bangkok": "2024-09-18 10:38:25",
+                "content": "hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_yhbHvMKfbtQSHrChRT8Qzu1s",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_1CiAWmzpC3W4GMEJ4MayPPOk",
+                "role": "user",
+                "thread_id": "thread_yhbHvMKfbtQSHrChRT8Qzu1s",
+                "created_at_unix": 1726630062,
+                "created_at_bangkok": "2024-09-18 10:27:42",
+                "content": "i need to see reponse"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_E5mmxOOgDyHP8gMsDpm18oXZ",
+                "role": "user",
+                "thread_id": "thread_yhbHvMKfbtQSHrChRT8Qzu1s",
+                "created_at_unix": 1726630048,
+                "created_at_bangkok": "2024-09-18 10:27:28",
+                "content": "hi there"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_mvpVCFuKRROwWwbxHb9WpOCk",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_4mISVK0GE7KRfsedyhKCjmCL",
+                "role": "user",
+                "thread_id": "thread_mvpVCFuKRROwWwbxHb9WpOCk",
+                "created_at_unix": 1726627516,
+                "created_at_bangkok": "2024-09-18 09:45:16",
+                "content": "how are you?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_zSdAk6cjYJrocIRVzvfXPuif",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_lvZMxvn9m6wtr41xpERNsf8Q",
+                "role": "user",
+                "thread_id": "thread_zSdAk6cjYJrocIRVzvfXPuif",
+                "created_at_unix": 1726626767,
+                "created_at_bangkok": "2024-09-18 09:32:47",
+                "content": "how are you?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_LLXMagc0sgmKSuFgqRDhL546",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_6wj8FGr1coz84tzys4iJSMKR",
+                "role": "user",
+                "thread_id": "thread_LLXMagc0sgmKSuFgqRDhL546",
+                "created_at_unix": 1726562628,
+                "created_at_bangkok": "2024-09-17 15:43:48",
+                "content": "how are you"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_JjNQlpAP0c0v8meZW2CIJEGB",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_JhdT9u5b23wlUPgpipE4sfzL",
+                "role": "user",
+                "thread_id": "thread_JjNQlpAP0c0v8meZW2CIJEGB",
+                "created_at_unix": 1726462217,
+                "created_at_bangkok": "2024-09-16 11:50:17",
+                "content": "I want it to be the year 2023"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_SdduwEW0OYcsQqwjN6HIipkF",
+                "role": "user",
+                "thread_id": "thread_JjNQlpAP0c0v8meZW2CIJEGB",
+                "created_at_unix": 1726462183,
+                "created_at_bangkok": "2024-09-16 11:49:43",
+                "content": "can you give me Sustainabiltity achievements in Thai? "
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_ttufngp7qiEeAtjGJrn2xrG4",
+                "role": "user",
+                "thread_id": "thread_JjNQlpAP0c0v8meZW2CIJEGB",
+                "created_at_unix": 1726462073,
+                "created_at_bangkok": "2024-09-16 11:47:53",
+                "content": "how about how?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_dAtXxC9Jh3zILXMhTCX3YnxN",
+                "role": "user",
+                "thread_id": "thread_JjNQlpAP0c0v8meZW2CIJEGB",
+                "created_at_unix": 1726462019,
+                "created_at_bangkok": "2024-09-16 11:46:59",
+                "content": "hi there"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_ob22OFHQXwqczaENxQl84817",
+                "role": "user",
+                "thread_id": "thread_JjNQlpAP0c0v8meZW2CIJEGB",
+                "created_at_unix": 1726461817,
+                "created_at_bangkok": "2024-09-16 11:43:37",
+                "content": "please tell me a bit about ThaiBev history?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_z4zAnUpDc7HschwTrr2gxsQ6",
+                "role": "user",
+                "thread_id": "thread_JjNQlpAP0c0v8meZW2CIJEGB",
+                "created_at_unix": 1726461763,
+                "created_at_bangkok": "2024-09-16 11:42:43",
+                "content": "gow are you "
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_Bl9hIi8C7NZiYIPwuKUcwCXr",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_X3vZNgo2oLNaNmjcvyFcdyp0",
+                "role": "user",
+                "thread_id": "thread_Bl9hIi8C7NZiYIPwuKUcwCXr",
+                "created_at_unix": 1726320961,
+                "created_at_bangkok": "2024-09-14 20:36:01",
+                "content": "/community_commitment_deepdive\n"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_Q3EeXHwXg5eK6ddhhzkt0cBU",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_3jOOTXTqTp8QCHJ6vvnQG57z",
+                "role": "user",
+                "thread_id": "thread_Q3EeXHwXg5eK6ddhhzkt0cBU",
+                "created_at_unix": 1726319667,
+                "created_at_bangkok": "2024-09-14 20:14:27",
+                "content": "/get_goals(true)"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_XXTZJE7BkpcoG5NSg8kNy7gy",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_uJkSOr89W8wEa2LJwqXFFaRl",
+                "role": "user",
+                "thread_id": "thread_XXTZJE7BkpcoG5NSg8kNy7gy",
+                "created_at_unix": 1726319581,
+                "created_at_bangkok": "2024-09-14 20:13:01",
+                "content": "/get_goals"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_mq3TIEs626Oq0bXWYUVBb5ib",
+                "role": "user",
+                "thread_id": "thread_XXTZJE7BkpcoG5NSg8kNy7gy",
+                "created_at_unix": 1726319546,
+                "created_at_bangkok": "2024-09-14 20:12:26",
+                "content": "can you help me get goals on sustainability?\n"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_I6B8r5y3yC4a9YvDP54JoYzZ",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_q0emZrdAxe3mRzVFcUSp69Oh",
+                "role": "user",
+                "thread_id": "thread_I6B8r5y3yC4a9YvDP54JoYzZ",
+                "created_at_unix": 1726318420,
+                "created_at_bangkok": "2024-09-14 19:53:40",
+                "content": "/get_goals"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_K9Rou47HyJXjQKn82qZJohAS",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_OQetihZwRwjfrYR189reohBN",
+                "role": "user",
+                "thread_id": "thread_K9Rou47HyJXjQKn82qZJohAS",
+                "created_at_unix": 1726317247,
+                "created_at_bangkok": "2024-09-14 19:34:07",
+                "content": "can you create an image related to sustainability of thaibev? "
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_t97M9NwsZB0vwcdWuW0SOREq",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_Sutu4ujcHGK2NhvAna7hchAG",
+                "role": "user",
+                "thread_id": "thread_t97M9NwsZB0vwcdWuW0SOREq",
+                "created_at_unix": 1726309623,
+                "created_at_bangkok": "2024-09-14 17:27:03",
+                "content": "based on the information that you have. for each year from 2016 to 2023, what are key achievements from ThaiBev in sustainability initiatives? "
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_v6Fro7Xy0rMM010vLIK90DgB",
+                "role": "user",
+                "thread_id": "thread_t97M9NwsZB0vwcdWuW0SOREq",
+                "created_at_unix": 1726309418,
+                "created_at_bangkok": "2024-09-14 17:23:38",
+                "content": "from what year to what year?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_ceTdvXdbdcW9I9yaXYDa40Cv",
+                "role": "user",
+                "thread_id": "thread_t97M9NwsZB0vwcdWuW0SOREq",
+                "created_at_unix": 1726309395,
+                "created_at_bangkok": "2024-09-14 17:23:15",
+                "content": "what are in your knowledgebase? what sort of information do you have?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_bo02hLr4gHSSbVo0sJa09gmd",
+                "role": "user",
+                "thread_id": "thread_t97M9NwsZB0vwcdWuW0SOREq",
+                "created_at_unix": 1726309169,
+                "created_at_bangkok": "2024-09-14 17:19:29",
+                "content": "what are your capabilities?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_5k0EecKcC89jO0taRCSfa9Ow",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_6jUxfho65wetejjQHOvzHV6G",
+                "role": "user",
+                "thread_id": "thread_5k0EecKcC89jO0taRCSfa9Ow",
+                "created_at_unix": 1726308930,
+                "created_at_bangkok": "2024-09-14 17:15:30",
+                "content": "I cannot read this format. can you put into a nice readable table format?\n"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_qlXomMX4BL7qxs6yTPckqeLL",
+                "role": "user",
+                "thread_id": "thread_5k0EecKcC89jO0taRCSfa9Ow",
+                "created_at_unix": 1726308435,
+                "created_at_bangkok": "2024-09-14 17:07:15",
+                "content": "If we are looking at recycling and post consumption packaging. from the year 2016 to 2023, what are key achievements and targets for each year. Can you summarize and provide information into a table format?\n"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_0U42K346molRREF2HHluv0b6",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_F5jhpiRF0CT5ZlhmDWhegJEr",
+                "role": "user",
+                "thread_id": "thread_0U42K346molRREF2HHluv0b6",
+                "created_at_unix": 1726046771,
+                "created_at_bangkok": "2024-09-11 16:26:11",
+                "content": "How does ThaiBev ensure responsible packaging?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_49SQ7O8aBCDv5VDEVg8riPnR",
+                "role": "user",
+                "thread_id": "thread_0U42K346molRREF2HHluv0b6",
+                "created_at_unix": 1726046591,
+                "created_at_bangkok": "2024-09-11 16:23:11",
+                "content": "How is ThaiBev addressing climate change?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_h8tkhZa6iL8AWAhfNqt4NQzg",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_2jCaDh6JiMrCP4JNfNkVFbGb",
+                "role": "user",
+                "thread_id": "thread_h8tkhZa6iL8AWAhfNqt4NQzg",
+                "created_at_unix": 1726045586,
+                "created_at_bangkok": "2024-09-11 16:06:26",
+                "content": "Tell me more about Net-Zero Carbon Emissions by 2040\n"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_09GVXTDe0zmdTCTs5Y6hx33Q",
+                "role": "user",
+                "thread_id": "thread_h8tkhZa6iL8AWAhfNqt4NQzg",
+                "created_at_unix": 1726045003,
+                "created_at_bangkok": "2024-09-11 15:56:43",
+                "content": "What are ThaiBev’s key sustainability goals?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_EOZQVLeUdQ9CC6XkypOAdbfk",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_iurL27HHWfJs3U9iyKc5wJjj",
+                "role": "user",
+                "thread_id": "thread_EOZQVLeUdQ9CC6XkypOAdbfk",
+                "created_at_unix": 1726042114,
+                "created_at_bangkok": "2024-09-11 15:08:34",
+                "content": "Specifically, for the Sustainability Report for 2023. Can you highlight key performance numbers?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_dUNv9s2Q9igzMpQfPzBhAmVq",
+                "role": "user",
+                "thread_id": "thread_EOZQVLeUdQ9CC6XkypOAdbfk",
+                "created_at_unix": 1726041973,
+                "created_at_bangkok": "2024-09-11 15:06:13",
+                "content": "what are the key Economic, Environment, and Social achievements in 2023?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_XueiD4oIl86RQI59lPa2NM9O",
+                "role": "user",
+                "thread_id": "thread_EOZQVLeUdQ9CC6XkypOAdbfk",
+                "created_at_unix": 1726041887,
+                "created_at_bangkok": "2024-09-11 15:04:47",
+                "content": "What are ThaiBev’s short-term goals for improving its governance practices and stakeholder engagement?"
+            }
+        ]
+    },
+    {
+        "thread_id": "thread_T6RJVz3o0nODqz40OfQpL6dN",
+        "messages": [
+            {
+                "assistant_id": null,
+                "message_id": "msg_3uSCm8IsHJqgtVqEj6Pn1NKB",
+                "role": "user",
+                "thread_id": "thread_T6RJVz3o0nODqz40OfQpL6dN",
+                "created_at_unix": 1726041640,
+                "created_at_bangkok": "2024-09-11 15:00:40",
+                "content": "ไทยเบฟมีแผนในการบรรลุเป้าหมายความหลากหลายและความเสมอภาคภายในปี 2030 อย่างไร?"
+            },
+            {
+                "assistant_id": null,
+                "message_id": "msg_ovLw0D8JNBavJdzUj8AiBMUR",
+                "role": "user",
+                "thread_id": "thread_T6RJVz3o0nODqz40OfQpL6dN",
+                "created_at_unix": 1726041536,
+                "created_at_bangkok": "2024-09-11 14:58:56",
+                "content": "ไทยเบฟมีเป้าหมายอะไรในการเติบโตทางเศรษฐกิจในขณะเดียวกันลดผลกระทบต่อสิ่งแวดล้อม?"
+            }
+        ]
+    }
+]
