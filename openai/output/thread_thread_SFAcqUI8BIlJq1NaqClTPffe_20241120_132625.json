@@ -1,0 +1,27 @@
+{
+  "thread_id": "thread_SFAcqUI8BIlJq1NaqClTPffe",
+  "timestamp": "20241120_132625",
+  "messages": [
+    {
+      "id": "msg_O3qA3Q1mlSzwGwECya4TCD2d",
+      "created_at": 1731570416,
+      "created_at_formatted": "2024-11-14 14:46:56",
+      "role": "user",
+      "content": "how do I solve this issue? my PM asked me. เพิ่มสิทธิ์ Role & Permissions ระบบ OTC Sale"
+    },
+    {
+      "id": "msg_3Bdcdo35qsHQKh8FERkcVVC5",
+      "created_at": 1731570418,
+      "created_at_formatted": "2024-11-14 14:46:58",
+      "role": "assistant",
+      "content": "To address the issue of adding role and permissions in the OTC Sale system, I will first search the uploaded files for relevant information regarding role and permission management. \n\nLet's begin by searching for terms related to \"Role & Permissions\" and \"OTC Sale\" in the provided documents. \n\nI'll conduct the search now."
+    },
+    {
+      "id": "msg_CPAjI8sInI2KI4zYgBrct0rn",
+      "created_at": 1731570420,
+      "created_at_formatted": "2024-11-14 14:47:00",
+      "role": "assistant",
+      "content": "### Summary of the Case Incident\nThe request is to add role and permissions for the OTC Sale system. This involves updating the database to assign specific roles to users, ensuring they have the necessary permissions to perform their tasks within the system.\n\n### References Used\n1. **Document Title**: เพิ่มสิทธิ์ Role & Permissions ระบบ OTC Sale\n   - Content: Steps to add roles and permissions in the OTC Sale database.\n2. **Document Title**: เพิ่มสิทธิ์ Role & Permissions ระบบ OTC Sale (continued)\n   - Content: Detailed SQL commands and procedures for adding user roles and permissions.\n\n### Application of Knowledgebase Information\nThe knowledgebase provides a structured method for adding roles and permissions in the OTC Sale system. The following steps are outlined:\n1. **Identify Role ID**: Use the command `select * from TB_OTC_Role;` to find the Role ID of the desired role.\n2. **Identify Company ID**: Use the command `select * from TB_OTC_Company;` to find the Company ID for the company you want to add the role to.\n3. **Check User Existence**: Verify if the user exists in the system with `select * from TB_OTC_User where EmployeeId = '70090572';` (replace with the actual Employee ID).\n4. **Add User if Not Found**: If the user does not exist, add them using:\n   ```sql\n   Declare @Employee_Ids NVARCHAR(MAX)   \n   Set @Employee_Ids = '70090572'  // Change according to user \n   EXEC [USP_AddUser_With_EmployeeId_To_OTCSale] @Employee_Ids;\n   ```\n5. **Assign Role to User**: If the user exists, assign the role using:\n   ```sql\n   Declare @EmployeeId NVARCHAR(10) = N'70090572';  // Change according to user \n   Declare @CompanyId NVARCHAR(20) = N'2';  // Change according to company \n   Declare @RoleId NVARCHAR(20) = N'15';  // Change according to role \n   EXEC [dbo].[USP_AddPermission_OTCSale] @EmployeeId, @CompanyId, @RoleId;\n   ```\n6. **Verify Role Assignment**: Finally, check if the role has been assigned correctly:\n   ```sql\n   EXEC [USP_Check_User_In_OTCSale] @Company, '70090572'; // Change according to user\n   ```\n\n### Conclusion and Suggested Resolution\nTo resolve the issue of adding role and permissions for the OTC Sale system, follow the structured steps provided in the knowledgebase. Ensure to replace the placeholder values with actual data relevant to the user and company. This approach will facilitate a smooth update of roles and permissions, allowing users to have the necessary access to perform their tasks efficiently.\n\nIf you encounter any issues during these steps, please provide the specific error messages or problems, and I will assist you further."
+    }
+  ]
+}

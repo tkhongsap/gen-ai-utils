@@ -1,0 +1,20 @@
+{
+  "thread_id": "thread_AWKTMo4awAPveeXoNwe4EI1m",
+  "timestamp": "20241120_132640",
+  "messages": [
+    {
+      "id": "msg_69Yi7P2ombN8DEDoo7pIZa1w",
+      "created_at": 1731377477,
+      "created_at_formatted": "2024-11-12 09:11:17",
+      "role": "user",
+      "content": "ประโยคภาษาอังกฤษ แสดงความขอโทษที่ไม่สามารถเข้าร่วมประชุมด้วยได้ เนื่องจากติดอีกประชุม"
+    },
+    {
+      "id": "msg_f1YRO4dSudW8CtBZQva7UrF7",
+      "created_at": 1731377479,
+      "created_at_formatted": "2024-11-12 09:11:19",
+      "role": "assistant",
+      "content": "คุณสามารถใช้ประโยคต่อไปนี้ในการแสดงความขอโทษที่ไม่สามารถเข้าร่วมประชุมได้ เนื่องจากติดอีกประชุม:\n\n\"I apologize for not being able to attend the meeting, as I have a prior commitment to another meeting.\""
+    }
+  ]
+}

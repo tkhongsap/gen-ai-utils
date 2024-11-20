@@ -1,0 +1,20 @@
+{
+  "thread_id": "thread_ZMSaXLi6Byez03AilsvroysJ",
+  "timestamp": "20241120_132625",
+  "messages": [
+    {
+      "id": "msg_o5cTivAvkkMFB1jmiTYaUcjp",
+      "created_at": 1731570184,
+      "created_at_formatted": "2024-11-14 14:43:04",
+      "role": "user",
+      "content": "I have a question here. How do I เพิ่มสิทธิ์ Role & Permissions ระบบ OTC Sale???"
+    },
+    {
+      "id": "msg_ediOueAU37tzQ2FoZkUwdrz2",
+      "created_at": 1731570189,
+      "created_at_formatted": "2024-11-14 14:43:09",
+      "role": "assistant",
+      "content": "1. **Summary of the Case Incident:**\n   The user is seeking guidance on how to add roles and permissions within the OTC Sale system.\n\n2. **References Used:**\n   - Article on \"เพิ่มสิทธิ์ Role & Permissions ระบบ OTC Sale\" from the knowledgebase.\n\n3. **Application of Knowledgebase Information:**\n   The article outlines a series of SQL commands necessary to add roles and permissions for users in the OTC Sale system. The steps include:\n   - Identifying the role ID from the `TB_OTC_Role` table.\n   - Identifying the company ID from the `TB_OTC_Company` table.\n   - Checking if the user exists in the `TB_OTC_User` table and adding the user if not found.\n   - Executing a stored procedure to add the user with the specified employee ID.\n   - Adding the role to the user using another stored procedure.\n   - Verifying the role assignment by querying the `TB_OTC_UserRoleCompany` table.\n\n4. **Final Answer/Suggested Resolution:**\n   To add roles and permissions in the OTC Sale system, follow these steps:\n   1. Retrieve the `roleId` of the desired role from the `TB_OTC_Role` table.\n   2. Retrieve the `CompanyId` of the company from the `TB_OTC_Company` table.\n   3. Check if the user exists in `TB_OTC_User`:\n      ```sql\n      SELECT * FROM TB_OTC_User WHERE EmployeeId = 'your_employee_id';\n      ```\n   4. If the user does not exist, add the user:\n      ```sql\n      DECLARE @Employee_Ids NVARCHAR(MAX)\n      SET @Employee_Ids = 'your_employee_id'; \n      EXEC [USP_AddUser_With_EmployeeId_To_OTCSale] @Employee_Ids;\n      ```\n   5. If the user exists, proceed to add the role:\n      ```sql\n      DECLARE @EmployeeId NVARCHAR(10) = N'your_employee_id';\n      DECLARE @CompanyId NVARCHAR(20) = N'your_company_id';\n      DECLARE @RoleId NVARCHAR(20) = N'your_role_id';\n      EXEC [dbo].[USP_AddPermission_OTCSale] @EmployeeId, @CompanyId, @RoleId;\n      ```\n   6. Verify the role assignment:\n      ```sql\n      EXEC [USP_Check_User_In_OTCSale] @Company, 'your_employee_id';\n      ```\n\n   If you encounter any issues during this process, check the `TB_OTC_UserRoleCompany` table to see the existing roles and delete any incorrect assignments if necessary【4:0†source】."
+    }
+  ]
+}

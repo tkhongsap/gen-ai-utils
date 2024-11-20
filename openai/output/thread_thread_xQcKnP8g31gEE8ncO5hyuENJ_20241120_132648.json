@@ -1,0 +1,20 @@
+{
+  "thread_id": "thread_xQcKnP8g31gEE8ncO5hyuENJ",
+  "timestamp": "20241120_132648",
+  "messages": [
+    {
+      "id": "msg_vURJ2OlJB1Mgz5YTb4LtRnxE",
+      "created_at": 1730788622,
+      "created_at_formatted": "2024-11-05 13:37:02",
+      "role": "user",
+      "content": "CVD ย่อมาจากอะไร"
+    },
+    {
+      "id": "msg_lrG7og2A5ZYXJQEnjH2bABzV",
+      "created_at": 1730788624,
+      "created_at_formatted": "2024-11-05 13:37:04",
+      "role": "assistant",
+      "content": "\"CVD\" ย่อมาจาก \"Cardiovascular Disease\" ที่แปลว่า \"โรคหลอดเลือดหัวใจและโรคหลอดเลือด\" ซึ่งเป็นกลุ่มของโรคที่เกี่ยวข้องกับหัวใจและหลอดเลือด เช่น โรคหัวใจขาดเลือด โรคหลอดเลือดสมอง และความดันโลหิตสูง เป็นต้น "
+    }
+  ]
+}

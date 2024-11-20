@@ -1,0 +1,20 @@
+{
+  "thread_id": "thread_ynNDqSFZVyXte74m8BDPUm3F",
+  "timestamp": "20241120_132551",
+  "messages": [
+    {
+      "id": "msg_3nWiHWlxRUk7iZBcbEJVdKay",
+      "created_at": 1732004296,
+      "created_at_formatted": "2024-11-19 15:18:16",
+      "role": "user",
+      "content": "ช่วย review code ไฟล์ ClientBase ให้หน่อย"
+    },
+    {
+      "id": "msg_pNRQS2ZSD666T0RL5C6DfhVk",
+      "created_at": 1732004299,
+      "created_at_formatted": "2024-11-19 15:18:19",
+      "role": "assistant",
+      "content": "ดูเหมือนว่าฉันไม่สามารถค้นหาไฟล์ที่ชื่อ \"ClientBase\" ได้ในตอนนี้ คุณสามารถอัปโหลดไฟล์ที่ต้องการให้ฉันช่วยรีวิวได้เลยค่ะ"
+    }
+  ]
+}

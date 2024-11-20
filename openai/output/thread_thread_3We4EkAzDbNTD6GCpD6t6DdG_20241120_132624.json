@@ -1,0 +1,48 @@
+{
+  "thread_id": "thread_3We4EkAzDbNTD6GCpD6t6DdG",
+  "timestamp": "20241120_132624",
+  "messages": [
+    {
+      "id": "msg_dB9HgK9uPQjBr6jnBCdCh2RO",
+      "created_at": 1731572113,
+      "created_at_formatted": "2024-11-14 15:15:13",
+      "role": "user",
+      "content": "เพิ่มสิทธิ otc sale"
+    },
+    {
+      "id": "msg_W6mcXjLb2rGVVUt1zroUf5zv",
+      "created_at": 1731572117,
+      "created_at_formatted": "2024-11-14 15:15:17",
+      "role": "assistant",
+      "content": "### Summary of the Case Incident\nThe request is to add permissions for the OTC Sale system. This involves modifying user roles and permissions within the system to enable specific functionalities for users.\n\n### References Used\n1. **OTC Sale Role & Permissions**: Instructions for adding user roles and permissions in the OTC Sale system【4:5†source】.\n2. **Database Commands for Role Addition**: Specific SQL commands and procedures for adding a role to a user in the OTC Sale database【4:13†source】.\n\n### Application of Knowledgebase Information\nThe knowledgebase provides detailed steps for adding roles and permissions in the OTC Sale system. It outlines the necessary SQL commands to select the appropriate role and user, as well as the procedures to add permissions. This includes checking if the user already exists, adding them if not, and then assigning the desired role.\n\n### Suggested Resolution\nTo add permissions for OTC Sale, follow these steps:\n\n1. **Identify the Role**:\n   - Query the existing roles to find the `roleId` of the role you wish to add:\n     ```sql\n     SELECT * FROM TB_OTC_Role;\n     ```\n\n2. **Check User Existence**:\n   - Verify if the user already exists in the database:\n     ```sql\n     SELECT * FROM TB_OTC_User WHERE EmployeeId = 'your_employee_id';\n     ```\n\n3. **Add User if Necessary**:\n   - If the user does not exist, add them using:\n     ```sql\n     DECLARE @Employee_Ids NVARCHAR(MAX) = 'your_employee_id';\n     EXEC [USP_AddUser_With_EmployeeId_To_OTCSale] @Employee_Ids;\n     ```\n\n4. **Assign Role**:\n   - To assign the role to the user, execute:\n     ```sql\n     DECLARE @EmployeeId NVARCHAR(10) = 'your_employee_id';\n     DECLARE @CompanyId NVARCHAR(20) = 'company_id';\n     DECLARE @RoleId NVARCHAR(20) = 'role_id';\n     EXEC [dbo].[USP_AddPermission_OTCSale] @EmployeeId, @CompanyId, @RoleId;\n     ```\n\n5. **Verify Role Assignment**:\n   - Check if the role was successfully assigned:\n     ```sql\n     EXEC [USP_Check_User_In_OTCSale] @CompanyId, 'your_employee_id';\n     ```\n\nThis process ensures that the user has the correct permissions to perform their tasks in the OTC Sale system. If any issues arise during this process, such as incorrect role assignments, they can be corrected by checking the `TB_OTC_UserRoleCompany` table and deleting any incorrect entries【4:13†source】.\n\nFeel free to reach out if you need further assistance or clarification on any of these steps!"
+    },
+    {
+      "id": "msg_B93kxGWqqCvzTQDUMVV0TFDK",
+      "created_at": 1731572455,
+      "created_at_formatted": "2024-11-14 15:20:55",
+      "role": "user",
+      "content": "ขอเพิ่มสิทธิ LE"
+    },
+    {
+      "id": "msg_p8MrIxzWo7myR49WTIWnXTpI",
+      "created_at": 1731572463,
+      "created_at_formatted": "2024-11-14 15:21:03",
+      "role": "assistant",
+      "content": "### Summary of the Case Incident\nThe request is to add permissions for the LE (Logistics Execution) system. This involves modifying user roles and permissions within the LE system to enable specific functionalities for users.\n\n### References Used\n1. **Adding User & Permission in LE**: Instructions for adding user roles and permissions in the LE system【8:2†source】.\n2. **Database Commands for Role Addition**: Specific SQL commands and procedures for adding a role to a user in the LE database【8:16†source】.\n\n### Application of Knowledgebase Information\nThe knowledgebase provides detailed steps for adding roles and permissions in the LE system. It outlines the necessary JSON structure required for user roles, how to generate this JSON from the database, and the specific commands to insert or update user roles in the database.\n\n### Suggested Resolution\nTo add permissions for the LE system, follow these steps:\n\n1. **Generate User JSON**:\n   - Use the following SQL command to generate the JSON for the user:\n     ```sql\n     SELECT  \n         CAST(Contactid AS NVARCHAR) AS _id,  \n         EmployeeId AS employeeid,  \n         ADUserId AS aduserid,  \n         EmployeeTag AS employeetag,  \n         LocalFirstName AS localfirstname,  \n         LocalLastName AS locallastname,  \n         FirstName AS firstname,  \n         LastName AS lastname \n     FROM CommonDB.dbo.TB_CTC_Contact  \n     WHERE EmployeeId = 'your_employee_id' \n     FOR JSON PATH, WITHOUT_ARRAY_WRAPPER;\n     ```\n\n2. **Modify the JSON for Permissions**:\n   - Ensure the JSON includes the necessary role and permissions. For example:\n     ```json\n     {\n         \"_id\": \"1105805\",\n         \"employeeid\": \"70090572\",\n         \"aduserid\": \"70090572\",\n         \"employeetag\": \"L88272\",\n         \"localfirstname\": \"ศิรินันท์\",\n         \"locallastname\": \"รังเพชร\",\n         \"firstname\": \"Sirinan\",\n         \"lastname\": \"Rangphet\",\n         \"companies\": [\n             {\n                 \"code\": \"5700\",\n                 \"permissions\": [\n                     \"read\",\n                     \"create\",\n                     \"edit\",\n                     \"cancel\",\n                     \"approve\"\n                 ]\n             }\n         ]\n     }\n     ```\n\n3. **Insert Data into the LE Database**:\n   - Add the generated JSON data into the `Users` collection within the LE database. Use the following command:\n     ```javascript\n     db.Users.insertOne(your_generated_json);\n     ```\n\n4. **Verify the Role Assignment**:\n   - Check if the user has the correct permissions assigned by querying the `Users` collection:\n     ```javascript\n     db.Users.find({_id: \"your_user_id\"});\n     ```\n\nThis process ensures that the user has the correct permissions to perform their tasks in the LE system. If any issues arise during this process, such as incorrect role assignments, they can be corrected by checking the relevant permissions in the database【8:3†source】【8:5†source】.\n\nIf you have any further questions or need additional assistance, feel free to ask!"
+    },
+    {
+      "id": "msg_a2K0xix2iiezZEoqRTAVCxQk",
+      "created_at": 1731572516,
+      "created_at_formatted": "2024-11-14 15:21:56",
+      "role": "user",
+      "content": "ขอ connection database le dev"
+    },
+    {
+      "id": "msg_gXrSdim4XG7vXP4oODMiIq6w",
+      "created_at": 1731572519,
+      "created_at_formatted": "2024-11-14 15:21:59",
+      "role": "assistant",
+      "content": "### Summary of the Case Incident\nThe request is for the connection details to the LE (Logistics Execution) development database. This information is essential for accessing the database for development, testing, or troubleshooting purposes.\n\n### References Used\n1. **Database Connection Information for LE**: Specific details on how to connect to the LE development database【12:0†source】.\n2. **Accessing MongoDB for LE**: Instructions on how to connect to the MongoDB instance used for LE【12:1†source】.\n\n### Application of Knowledgebase Information\nThe knowledgebase outlines the connection details and procedures for accessing the LE development database. It includes the necessary credentials, database names, and the specific collections that are relevant for development tasks. \n\n### Suggested Resolution\nTo connect to the LE development database, follow these steps:\n\n1. **MongoDB Connection**:\n   - Use the following connection string format for MongoDB:\n     ```\n     mongodb://<username>:<password>@<host>:<port>/<database>\n     ```\n   - Replace `<username>`, `<password>`, `<host>`, `<port>`, and `<database>` with your actual connection details.\n\n2. **Database and Collection Access**:\n   - After connecting to MongoDB, you can access the relevant collections for LE, such as:\n     - `DocumentInfo`\n     - `ItemInventory`\n     - `ProduceOMLogs`\n   - Example command to access a collection:\n     ```javascript\n     use('OTCInterface');\n     db.DocumentInfo.find({});\n     ```\n\n3. **Verify Connection**:\n   - After establishing the connection, run a simple query to verify that you are connected properly and can access data:\n     ```javascript\n     db.DocumentInfo.findOne();\n     ```\n\nIf you encounter any issues during the connection process, ensure that the credentials and connection string are correct, and that your network allows access to the database server.\n\nFeel free to reach out if you need further assistance with connecting to the database or any other related queries!"
+    }
+  ]
+}

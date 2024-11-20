@@ -1,0 +1,20 @@
+{
+  "thread_id": "thread_E1ZgaXuXjnzcBWxLdEUHQJut",
+  "timestamp": "20241120_132631",
+  "messages": [
+    {
+      "id": "msg_N55Yq3OzY3QUFnaRlYaowTsr",
+      "created_at": 1731491746,
+      "created_at_formatted": "2024-11-13 16:55:46",
+      "role": "user",
+      "content": "hi tehre"
+    },
+    {
+      "id": "msg_SyzWCTAbWKGgBtOGDbccZQvk",
+      "created_at": 1731491748,
+      "created_at_formatted": "2024-11-13 16:55:48",
+      "role": "assistant",
+      "content": "Hello! How can I assist you today with your coding project?"
+    }
+  ]
+}
