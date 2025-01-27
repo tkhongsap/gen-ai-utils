@@ -1,3 +1,14 @@
+"""
+This script extracts OpenAI thread IDs from a text file and saves them to a separate output file.
+It specifically looks for IDs that start with 'thread_' followed by alphanumeric characters.
+
+The script:
+1. Reads from a source file (threads_blob.txt)
+2. Extracts all thread IDs using regex
+3. Saves the extracted IDs to a timestamped file in the openai/output directory
+4. Prints the extracted IDs to the console
+"""
+
 import re
 from pathlib import Path
 from datetime import datetime
@@ -24,7 +35,7 @@ def save_thread_ids(thread_ids):
     Save thread IDs to a text file in the openai/output directory
     """
     # Create output directory if it doesn't exist
-    output_dir = Path("openai/output")
+    output_dir = Path("openai/output/thread_ids")
     output_dir.mkdir(parents=True, exist_ok=True)
     
     # Create filename with timestamp

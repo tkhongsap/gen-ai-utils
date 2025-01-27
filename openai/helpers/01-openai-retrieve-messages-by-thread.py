@@ -1,3 +1,25 @@
+"""
+OpenAI Thread Message Retriever
+
+This script retrieves and processes messages from OpenAI Assistant threads. It:
+1. Reads thread IDs from the latest file in openai/output/thread_ids/
+2. For each thread ID:
+   - Retrieves all messages using OpenAI's API
+   - Formats the conversation with timestamps and role indicators
+   - Saves the raw message data as JSON in openai/output/thread_ids_messages/
+   - (Optional) Saves human-readable markdown format
+
+The script requires:
+- OpenAI API key in .env file (OPENAI_API_KEY)
+- Input: thread IDs file in openai/output/thread_ids/
+- Output: JSON files in openai/output/thread_ids_messages/
+
+Dependencies:
+- requests: for API calls
+- python-dotenv: for environment variables
+- colorama: for colored console output
+"""
+
 import requests
 import json
 from dotenv import load_dotenv
@@ -109,17 +131,17 @@ def save_to_markdown(thread_id, formatted_output):
 def save_to_json(thread_id, messages_data):
     """Save the raw messages data to a JSON file"""
     # Create output directory if it doesn't exist
-    output_dir = Path("openai/output")
+    output_dir = Path("openai/output/thread_ids_messages")
     output_dir.mkdir(parents=True, exist_ok=True)
     
-    # Create filename with timestamp
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"thread_{thread_id}_{timestamp}.json"
+    # Create filename with date
+    date = datetime.now().strftime("%Y%m%d")
+    filename = f"thread_{thread_id}_{date}.json"
     
     # Prepare JSON data with better structure
     output_data = {
         "thread_id": thread_id,
-        "timestamp": timestamp,
+        "timestamp": date,
         "messages": []
     }
     
@@ -174,7 +196,7 @@ def process_thread(thread_id):
         # Format and save as markdown for human reading
         formatted_output = process_thread_messages(messages_data)
         print(formatted_output)
-        save_to_markdown(thread_id, formatted_output)
+        # save_to_markdown(thread_id, formatted_output)
         
         # Save raw data as JSON for processing
         save_to_json(thread_id, messages_data)
@@ -183,9 +205,26 @@ def process_thread(thread_id):
     else:
         print(f"No messages found for thread: {thread_id}")
 
+def get_latest_thread_ids_file():
+    """Get the most recent thread_ids file from the thread_ids directory"""
+    output_dir = Path("openai/output/thread_ids")
+    thread_id_files = list(output_dir.glob("thread_ids_*.txt"))
+    
+    if not thread_id_files:
+        raise FileNotFoundError("No thread_ids files found in openai/output/thread_ids directory")
+    
+    # Sort files by modification time and get the most recent
+    latest_file = max(thread_id_files, key=lambda x: x.stat().st_mtime)
+    return str(latest_file)
+
 def main():
-    # Specify the path to the thread IDs file
-    thread_ids_file = "openai/output/thread_ids_20241120_132336.txt"
+    # Get the latest thread IDs file
+    try:
+        thread_ids_file = get_latest_thread_ids_file()
+        print(f"Using thread IDs file: {thread_ids_file}")
+    except FileNotFoundError as e:
+        print(f"Error: {e}")
+        return
     
     # Read thread IDs
     thread_ids = read_thread_ids(thread_ids_file)
