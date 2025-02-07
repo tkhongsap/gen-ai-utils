@@ -53,7 +53,7 @@ def parse_response(xml_data: str) -> List[Dict]:
             'id': id_elem.text.split('/')[-1] if id_elem is not None else "No ID",
             'published': published_elem.text if published_elem is not None else "No date",
             'updated': updated_elem.text if updated_elem is not None else "No update date",
-            'summary': summary_elem.text.strip() if summary_elem is not None else "No abstract",
+            'abstract': summary_elem.text.strip() if summary_elem is not None else "No abstract",
             'authors': [
                 author.find('atom:name', namespace).text 
                 for author in entry.findall('atom:author', namespace)
@@ -101,5 +101,6 @@ if __name__ == "__main__":
             print(f"   Authors: {', '.join(article['authors'])}")
             print(f"   Published: {article['published']}")
             print(f"   PDF: {article['links']['pdf']}")
+            print(f"   Abstract: {article['abstract']}")
     except Exception as e:
         print(f"Error: {e}")
