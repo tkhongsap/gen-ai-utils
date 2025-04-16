@@ -1,34 +1,35 @@
+```json
 {
-  "company_name": "บีเอสพีวิศวะเซอร์วิส",
-  "address": "52 ซอย 8 ตำบล ลาดยาว ตำบล ปากน้ำ อำเภอ เมือง จังหวัด สมุทรปราการ 10270",
+  "company_name": "บริษัท เอ็ม.ซี.ซี.แมนเนจเมนท์ แอนด์ ดีเวลลอปเม้นท์ จำกัด (สำนักงานใหญ่)",
+  "address": "52 ซอย 8 ถนน สายลวด ตำบล ปากน้ำ อำเภอ เมือง จังหวัด สมุทรปราการ 10270",
   "date": "07/01/2025",
   "invoice_numbers_or_po_numbers": {
     "invoice_number": "FBM00683/3",
-    "PO_number": "3014027333"
+    "po_number": "3014027333"
   },
   "items": [
     {
-      "name": "ลายไก่300กรัม/ชิ้น",
-      "quantity": "69.50",
-      "price": "77"
+      "name": "ลาไก่ 300 กรัม/ชิ้น",
+      "quantity": 69,
+      "price": 77
     },
     {
-      "name": "หมูสวรรค์น้ำเงิน",
-      "quantity": "20",
-      "price": "163"
+      "name": "หมูสับบดอิ่มน้ำ",
+      "quantity": 20,
+      "price": 163
     }
   ],
-  "total_amount": "8611.50",
+  "total_amount": 8611.50,
   "other": {
-    "company_address_office": "เลขที่ 60 ศูนย์การประชุมแห่งชาติสิริกิติ์ ถนนรัชดาภิเษก แขวงคลองเตย เขตคลองเตย กรุงเทพฯ 10110",
-    "tax_id": "0105534007639",
-    "contact_person": "MS. Waraporn Kongsuwan",
-    "contact_tel": "+66(0)2229 3000",
-    "credit_term": "30 วัน",
-    "stamps": "N.C.C MANAGEMENT & DEVELOPMENT CO., LTD. 7 JAN 2025 MARKET LIST RECEIVER",
-    "signatures": {
-      "receiver": "unnamed signature",
-      "sender": "signed on 07/01/2025"
+    "credit_terms": "30 วัน",
+    "receiver_stamp_date": "7 JAN 2025",
+    "contact": {
+      "Tel": "02-387-2311",
+      "Fax": "02-703-8111",
+      "Email": "BSWFoodService@gmail.com",
+      "Contact_person": "MS. Waraporn Kongsuwan",
+      "Phone": "+66 (0) 2229 3000"
     }
   }
 }
+```

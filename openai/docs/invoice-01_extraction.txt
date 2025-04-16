@@ -1,0 +1,27 @@
+```json
+{
+  "company_name": "บริษัท เอ็น.ซี.ซี. แมนเนจเม้นท์ แอนด์ ดีเวลลอปเม้นท์ จำกัด",
+  "address": "60 ถนนบางกะปิ แขวงห้วยขวาง เขตห้วยขวาง กรุงเทพฯ 10110 เลขประจำตัวผู้เสียภาษี 0105534067934",
+  "date": "18-12-24",
+  "invoice_numbers_or_po_numbers": [
+    "ใบส่งของ เลขที่ 1819", 
+    "PO.30402959", 
+    "ชา10037704"
+  ],
+  "items": [
+    {
+      "name": "น้ำดื่มสิงห์",
+      "quantity": "500 ขวด",
+      "price": "7.70",
+      "amount": "3850.-"
+    }
+  ],
+  "total_amount": "3850.-",
+  "other": "Stamped and signed by N.C.C. MANAGEMENT & DEVELOPMENT CO., LTD. - Dated 17 DEC 2024. Receiver field signed. Handwritten and stamped notes present."
+}
+```
+**Notes:**
+- Only one item, "น้ำดื่มสิงห์" (Singha drinking water), is listed.
+- Handwriting was present but did not overwrite or replace the main item or total, so the extracted results reflect the current content truthfully.
+- The "amount" in each item is pulled from the document (total per line), but the individual "price" is per bottle (7.70), and total for 500 bottles is 3850.-.
+- If more detail on handwritten text is required, please specify!

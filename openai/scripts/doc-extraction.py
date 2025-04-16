@@ -91,18 +91,20 @@ def main():
         "2. address\n"
         "3. date\n"
         "4. invoice_numbers_or_po_numbers\n"
-        "5. items (a list of objects, each with name, quantity, and price). Extract every item listed in the document, and do not omit any items unless they are crossed out or struck through."
+        "5. items (a list of objects, each with name, quantity, and price). Extract every item listed in the document, and do not omit any items unless they are crossed out or struck through.\n"
         "   - If an item is crossed out but replaced by another value (e.g., a handwritten correction), only display the replacement value in the output (not the crossed-out one).\n"
         "   - If you are unsure about any item, indicate so.\n"
         "6. total_amount\n"
         "7. other (any additional relevant information not covered above)\n"
-        "\nThe document may contain handwritten text. Please carefully extract the information, ignoring any crossed-out or struck-through items.\n"
+        "\nThis document may be entirely or partially in Thai or English, and it may contain handwritten text. Carefully extract the information, ignoring any crossed-out or struck-through items.\n"
         "If any item was crossed out but replaced with a handwritten correction, use the new corrected value and exclude the crossed-out version.\n"
-        "\nOutput the result as a JSON object with the following fields: company_name, address, date, invoice_numbers_or_po_numbers, items, total_amount, other. The 'items' field should be a list of objects, each with name, quantity, and price.\n"
+        "\nOutput the result as a JSON object with the following fields:\n"
+        "company_name, address, date, invoice_numbers_or_po_numbers, items, total_amount, other.\n"
+        "The 'items' field should be a list of objects, each with name, quantity, and price.\n"
     )
 
 
-    pdf_files = ['invoice-07.pdf']
+    pdf_files = ['invoice-05.pdf']
     
     if not pdf_files:
         print(f"No PDF files found in {docs_dir}")
