@@ -90,7 +90,12 @@ def main():
             # Print summary
             user_msg_count = len(filtered_data["messages"])
             print(f"Extracted {user_msg_count} user messages")
-            print(f"First user message preview: {filtered_data['messages'][0]['content'][:100]}...")
+            
+            # Only preview if there are messages
+            if user_msg_count > 0:
+                print(f"First user message preview: {filtered_data['messages'][0]['content'][:100]}...")
+            else:
+                print("No user messages found in this file")
         
     print("\nProcessing complete!")
 
