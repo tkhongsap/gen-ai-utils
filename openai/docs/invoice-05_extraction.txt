@@ -1,34 +1,33 @@
-```json
 {
   "company_name": "FOOD PROJECT (SIAM) CO., LTD.",
   "address": "99/1 WONGWAEN-UTSAHAKAM ROAD, CHONGNONSEE, YANNAVA, BANGKOK 10120 THAILAND",
   "date": "29/01/2025",
   "invoice_numbers_or_po_numbers": {
-    "Invoice Number": "2501201028084",
     "CO No.": "0029951",
     "P/O Number": "3013024639",
-    "Customer No.": "0010110792"
+    "Customer No.": "0010110792",
+    "Invoice Number": "2501201028084"
   },
   "items": [
     {
-      "name": "chicken nuggets 1kg",
+      "name": "chicken nuggets 1kg-pck",
       "quantity": 20.00,
       "price": 143.00
     }
   ],
   "total_amount": 3060.20,
   "other": {
-    "currency": "THB (Thai Baht)",
-    "Unit": "PCK",
-    "Subtotal": 2860.00,
-    "Discount": "0.00%",
-    "After less discount": 2860.00,
-    "VAT Amount": 200.20,
-    "VAT Included": true,
-    "Term of Payment": "30 days net",
-    "Delivery to": "ศูนย์ประชุม NCC (60 ศูนย์ทาวน์ประชุมสัมพันธ์ 086-0627359)",
-    "Salesperson": "รต (แพท) 063-218-9111",
-    "Ship Via": "BKK20"
+    "currency": "THB",
+    "unit": "PCK",
+    "discount_percent": 0.00,
+    "vat_percent": 7,
+    "vat_amount": 200.20,
+    "sub_total": 2860.00,
+    "after_less_discount": 2860.00,
+    "non_vat_amount": 0.00,
+    "net_total_amount": 3060.20,
+    "term_of_payment": "30 days net",
+    "salesperson": "ตา (แพท) 063-218-9111",
+    "ship_via": "BKK20"
   }
 }
-```
