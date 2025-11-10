@@ -13,6 +13,8 @@ A professional Python toolkit providing battle-tested utilities for working with
 
 ### 🤖 AI/ML Engineering
 - **OpenAI Integration**: Thread management, message processing, and analytics
+- **Document Parsing**: LlamaParse integration for PDF, DOCX, and other formats
+- **Structured Extraction**: LlamaExtract for extracting structured data from documents
 - **Embeddings**: Batch generation, caching, and similarity search
 - **Vector Stores**: ChromaDB integration with similarity search
 - **Model Evaluation**: Classification and regression metrics
@@ -129,7 +131,7 @@ result = pipeline.run()
 print(f"Processed {result.records_processed} records")
 ```
 
-#### AI Engineering
+#### AI Engineering - Embeddings
 ```python
 from gen_ai_utils.ai_engineering import EmbeddingGenerator, semantic_search
 
@@ -144,6 +146,33 @@ results = semantic_search(
     api_key="your-key",
     top_k=2
 )
+```
+
+#### AI Engineering - Document Parsing
+```python
+from gen_ai_utils.ai_engineering import (
+    parse_document,
+    extract_data,
+    create_financial_extraction_schema
+)
+
+# Parse a PDF document
+documents = parse_document(
+    file_path="./data/report.pdf",
+    result_type="markdown",
+    parsing_instruction="Extract all financial data and tables",
+    output_folder="./output"
+)
+
+# Extract structured data
+schema = create_financial_extraction_schema()
+result = extract_data(
+    file_path="./data/financial_report.pdf",
+    schema=schema,
+    output_path="./output/financial_data.json"
+)
+
+print(f"Extracted: {result.data}")
 ```
 
 ---
@@ -172,7 +201,8 @@ gen-ai-utils/
 │   │   ├── embeddings.py
 │   │   ├── vector_stores.py
 │   │   ├── model_evaluation.py
-│   │   └── prompt_manager.py
+│   │   ├── prompt_manager.py
+│   │   └── document_parser.py  # LlamaParse & LlamaExtract integration
 │   ├── common/                # Common utilities
 │   │   ├── config.py
 │   │   ├── logging.py

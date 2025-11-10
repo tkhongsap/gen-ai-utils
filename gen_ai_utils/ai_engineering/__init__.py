@@ -1,5 +1,5 @@
 """
-AI Engineering Utilities - Embeddings, vector stores, and model evaluation
+AI Engineering Utilities - Embeddings, vector stores, model evaluation, and document parsing
 """
 
 from gen_ai_utils.ai_engineering.embeddings import (
@@ -22,6 +22,16 @@ from gen_ai_utils.ai_engineering.prompt_manager import (
     PromptManager,
     load_prompts
 )
+from gen_ai_utils.ai_engineering.document_parser import (
+    LlamaParseClient,
+    LlamaExtractClient,
+    ParsedDocument,
+    ExtractionResult,
+    parse_document,
+    extract_data,
+    create_financial_extraction_schema,
+    create_table_extraction_schema
+)
 
 __all__ = [
     # Embeddings
@@ -40,4 +50,13 @@ __all__ = [
     "PromptTemplate",
     "PromptManager",
     "load_prompts",
+    # Document parsing and extraction
+    "LlamaParseClient",
+    "LlamaExtractClient",
+    "ParsedDocument",
+    "ExtractionResult",
+    "parse_document",
+    "extract_data",
+    "create_financial_extraction_schema",
+    "create_table_extraction_schema",
 ]
