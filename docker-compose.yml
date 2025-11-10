@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  # Main API service
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - ENV=development
+      - DB_HOST=postgres
+      - REDIS_HOST=redis
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+      - redis
+    volumes:
+      - ./gen_ai_utils:/app/gen_ai_utils
+      - ./data:/app/data
+    command: uvicorn gen_ai_utils.api.main:app --host 0.0.0.0 --port 8000 --reload
+
+  # PostgreSQL database
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: genai_utils
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  # Redis cache
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  # Jupyter notebook (optional)
+  jupyter:
+    build: .
+    ports:
+      - "8888:8888"
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    env_file:
+      - .env
+    volumes:
+      - ./:/app
+      - ./notebooks:/app/notebooks
+    command: jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root
+
+volumes:
+  postgres_data:
+  redis_data:
